@@ -6,7 +6,9 @@ Before running any scripts, you can speed up the process by enabling parallel do
 ParallelDownloads = X
 ```
 
-**Must be ran from a subfolder one-level deep in the home directory! Don't run as root, you will be prompted for a sudo password when running the script**
+---
+
+**Scripts must be ran from a subfolder one-level deep in the home directory! Don't run as root, you will be prompted for a sudo password when running the script**
 **(ex. *~/ArchConfig/install_config.sh*)**
 
 ## install_config.sh
