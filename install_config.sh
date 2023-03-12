@@ -23,14 +23,6 @@ chmod a+w "$USER_HOME/Shortcuts"
 chmod a+w "$USER_HOME/Software"
 
 
-# copy package list to scratch directory
-cp package_list.txt "$USER_HOME/Scratch"
-
-
-# install git and base-devel
-pacman -S --noconfirm --needed git base-devel
-
-
 # operate from within our Scratch directory
 pushd "$USER_HOME/Scratch"
 
