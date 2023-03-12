@@ -51,8 +51,24 @@ pushd "$USER_HOME/Scratch"
 	yay -S --noconfirm i3 i3blocks rofi
 
 
+	# install lightdm-mini-greeter
+	yay -S --noconfirm lightdm-mini-greeter
+
+
 	# install fonts
-	yay -S --noconfirm ttf-dejavu ttf-google-fonts ttf-ms-fonts ttf-mac-fonts
+	yay -S --noconfirm ttf-dejavu ttf-google-fonts-git ttf-ms-fonts ttf-mac-fonts
+
+
+	# install emacs
+	yay -S --noconfirm emacs
+
+
+	# install redshift
+	yay -S --noconfirm redshift gtk python-gobject python-xdg
+
+
+	# install qpwgrapg
+	yay -S --noconfirm qpwgraph
 
 
 popd
