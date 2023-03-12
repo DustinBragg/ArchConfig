@@ -44,7 +44,7 @@ pushd "$USER_HOME/Scratch"
 
 
 	# install xterm, xrdb, and bash-completion
-	yay -S --noconfirm xterm xrdb bash-completion
+	yay -S --noconfirm xterm xorg-xrdb bash-completion
 
 
 	# install i3, i3blocks, and rofi
