@@ -45,6 +45,11 @@ yay -S --noconfirm --sudoloop --needed - < config_package_list.txt
 # TODO: How to do this? Separate script you run as root?
 # TODO: Can I prompt for root here and do it reliably?
 
+	# TODO: Maybe do this in another script, need to pass username to a couple files:
+		.bash_profile
+		.gtkrc-2.0
+		lightdm-mini-greeter.conf
+
 # TODO: commands
 	~/.icons/default symlink
 	chmod 664 /usr/share/fonts/MyFonts
