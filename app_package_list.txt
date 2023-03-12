@@ -1,0 +1,7 @@
+
+emacs
+gimp
+gimp-plugin-resynthesizer
+abcde
+abcde-musicbrainz-meta
+flac

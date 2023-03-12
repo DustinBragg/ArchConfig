@@ -81,7 +81,6 @@ pacman -S --noconfirm --needed git base-devel
 # operate from within our Scratch directory
 pushd "$USER_HOME/Scratch"
 
-
 	# install yay (AUR helper)
 	git clone https://aur.archlinux.org/yay-bin.git
 	chmod a+w yay-bin
@@ -89,10 +88,13 @@ pushd "$USER_HOME/Scratch"
 		sudo -u $SUDO_USER makepkg -si --noconfirm
 	popd
 
-
-	# install packages from package_list.txt
-	yay -S --noconfirm --sudoloop --needed - < package_list.txt
-
-
-
 popd
+
+
+# install packages from config_package_list.txt
+yay -S --noconfirm --sudoloop --needed - < config_package_list.txt
+
+
+# install configuration files
+
+ranger --copy-config all
