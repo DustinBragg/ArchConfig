@@ -8,8 +8,9 @@ ParallelDownloads = X
 
 ---
 
-**Scripts must be ran from a subfolder one-level deep in the home directory! Don't run as root, you will be prompted for a sudo password when running the script**
+**Scripts must be ran from a subfolder one-level deep in the home directory!**
 **(ex. *~/ArchConfig/install_config.sh*)**
+**Don't run as root, you will be prompted for a sudo password when running the script**
 
 ## install_config.sh
 Fully installs and configures i3wm and related desktop environment stuff.
