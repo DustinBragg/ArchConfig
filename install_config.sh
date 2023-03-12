@@ -1,55 +1,7 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-###################
-###################
-###################
-###################
-
-Permission errors:
-Try not running the script as root
-Try a single yay command with --sudoloop or something?
-
-###################
-###################
-###################
-###################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #!/bin/bash
 
 
 . ./helpers.sh
-
-
-# must be root
-#RootCheck
 
 
 # get path to user's home directory
