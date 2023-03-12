@@ -5,15 +5,16 @@
 
 
 # get path to user's home directory
-USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
+USER_HOME=$HOME
+echo $USER_HOME
 
 # make home directories
-sudo -u $SUDO_USER mkdir -p "$USER_HOME/Downloads"
-sudo -u $SUDO_USER mkdir -p "$USER_HOME/Games"
-sudo -u $SUDO_USER mkdir -p "$USER_HOME/Pictures"
-sudo -u $SUDO_USER mkdir -p "$USER_HOME/Scratch"
-sudo -u $SUDO_USER mkdir -p "$USER_HOME/Shortcuts"
-sudo -u $SUDO_USER mkdir -p "$USER_HOME/Software"
+mkdir -p "$USER_HOME/Downloads"
+mkdir -p "$USER_HOME/Games"
+mkdir -p "$USER_HOME/Pictures"
+mkdir -p "$USER_HOME/Scratch"
+mkdir -p "$USER_HOME/Shortcuts"
+mkdir -p "$USER_HOME/Software"
 chmod a+w "$USER_HOME/Downloads"
 chmod a+w "$USER_HOME/Games"
 chmod a+w "$USER_HOME/Pictures"
