@@ -49,7 +49,7 @@ Try a single yay command with --sudoloop or something?
 
 
 # must be root
-RootCheck
+#RootCheck
 
 
 # get path to user's home directory
