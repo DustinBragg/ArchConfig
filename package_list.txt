@@ -1,5 +1,5 @@
 xterm
-xrdb
+xorg-xrdb
 bash-completion
 i3
 i3blocks
