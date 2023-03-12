@@ -5,3 +5,5 @@ gimp-plugin-resynthesizer
 abcde
 abcde-musicbrainz-meta
 flac
+firefox
+yt-dlp

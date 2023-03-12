@@ -1,0 +1,6 @@
+configuration {
+	modes: "run";
+	font: "Liberation Mono Bold 12";
+	show-icons: false;
+}
+@theme "dustinos"

@@ -42,4 +42,15 @@ yay -S --noconfirm --sudoloop --needed - < config_package_list.txt
 
 # install configuration files
 
+# TODO: How to do this? Separate script you run as root?
+# TODO: Can I prompt for root here and do it reliably?
+
+# TODO: commands
+	~/.icons/default symlink
+	chmod 664 /usr/share/fonts/MyFonts
+	fc-cache -f
+
+# TODO: install_apps, pull other things from DebianConfig
+# TODO: install_apps, can I pull down 4coder reliably? Then include my config and a shortcut
+
 ranger --copy-config all

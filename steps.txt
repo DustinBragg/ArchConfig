@@ -33,8 +33,6 @@ ttf-ms-fonts
 ttf-mac-fonts
 lightdm-mini-greeter
 emacs
-   fix emacs backspace in xterm
-firefox
 redshift
    gtk python-gobject python-xdg
 qpwgraph
@@ -75,29 +73,30 @@ files:
 /etc/X11/xorg.conf.d/50-mouse-accleration.conf
 ~/.config/i3/config
 ~/.config/i3/i3blocks.conf
-/usr/share/fonts/MyFonts (chmod 644 fonts inside)
-   fc-cache -f
 ~/.config/ranger/scope.sh
 ~/.config/ranger/rc.conf
 ~/.config/ranger/colorschemes/
-/etc/lightdm/lightdm.conf
-/etc/lightdm/lightdm-mini-greeter.conf
-~/.Xresources
-~/.bash_profile
-~/.profile
-~/Aliases.sh
 ~/.config/rofi/
-~/.xinitrc
-/usr/bin/imgur-screenshot
 ~/.config/dunst/dunstrc
-~/.gtkrc-2.0
 ~/.config/gtk-3.0/settings.ini
 ~/.config/qt5ct/qt5ct.conf
 ~/.config/fontconfig/fonts.conf
 ~/.config/picom/picom.conf
-/etc/fstab (for reference)
-~/.icons/default symlink
+~/.Xresources
+~/.bash_profile
+~/.profile
+~/Aliases.sh
+~/.xinitrc
+~/.gtkrc-2.0
 ~/.abcde.conf // is this needed with the sg modprobe thing? maybe my drive just wasnt working properly before
+~/.icons/default symlink
+
+/usr/share/fonts/MyFonts (chmod 644 fonts inside)
+   fc-cache -f
+/etc/lightdm/lightdm.conf
+/etc/lightdm/lightdm-mini-greeter.conf
+/usr/bin/imgur-screenshot
+/etc/fstab (for reference)
 
 TODO:
 ------
