@@ -8,6 +8,7 @@
 RootCheck
 
 
+# get path to user's home directory
 USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
 
 
@@ -30,13 +31,24 @@ chmod a+w "$USER_HOME/Software"
 pacman -S --noconfirm --needed git base-devel
 
 
-# install yay (AUR helper)
+# operate from within our Scratch directory
 pushd "$USER_HOME/Scratch"
 
+
+# install yay (AUR helper)
 git clone https://aur.archlinux.org/yay-bin.git
 chmod a+w yay-bin
 pushd yay-bin
 sudo -u $SUDO_USER makepkg -si --noconfirm
 popd
+
+
+# install xterm, xrdb, and bash-completion
+yay -S --noconfirm xterm xrdb bash-completion
+
+
+# install i3, i3blocks, and rofi
+yay -S --noconfirm i3 i3blocks rofi
+
 
 popd
