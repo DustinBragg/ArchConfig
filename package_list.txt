@@ -1,0 +1,16 @@
+xterm
+xrdb
+bash-completion
+i3
+i3blocks
+rofi
+lightdm-mini-greeter
+ttf-dejavu
+ttf-ms-fonts
+ttf-mac-fonts
+emacs
+redshift
+gtk
+python-gobject
+python-xdg
+qpwgraph

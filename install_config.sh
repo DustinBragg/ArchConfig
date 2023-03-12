@@ -1,3 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###################
+###################
+###################
+###################
+
+Permission errors:
+Try not running the script as root
+Try a single yay command with --sudoloop or something?
+
+###################
+###################
+###################
+###################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #!/bin/bash
 
 
@@ -10,7 +54,6 @@ RootCheck
 
 # get path to user's home directory
 USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
-
 
 # make home directories
 sudo -u $SUDO_USER mkdir -p "$USER_HOME/Downloads"
@@ -25,6 +68,10 @@ chmod a+w "$USER_HOME/Pictures"
 chmod a+w "$USER_HOME/Scratch"
 chmod a+w "$USER_HOME/Shortcuts"
 chmod a+w "$USER_HOME/Software"
+
+
+# copy package list to scratch directory
+cp package_list.txt "$USER_HOME/Scratch"
 
 
 # install git and base-devel
@@ -43,32 +90,9 @@ pushd "$USER_HOME/Scratch"
 	popd
 
 
-	# install xterm, xrdb, and bash-completion
-	yay -S --noconfirm xterm xorg-xrdb bash-completion
+	# install packages from package_list.txt
+	yay -S --noconfirm --sudoloop --needed - < package_list.txt
 
-
-	# install i3, i3blocks, and rofi
-	yay -S --noconfirm i3 i3blocks rofi
-
-
-	# install lightdm-mini-greeter
-	yay -S --noconfirm lightdm-mini-greeter
-
-
-	# install fonts
-	yay -S --noconfirm ttf-dejavu ttf-google-fonts-git ttf-ms-fonts ttf-mac-fonts
-
-
-	# install emacs
-	yay -S --noconfirm emacs
-
-
-	# install redshift
-	yay -S --noconfirm redshift gtk python-gobject python-xdg
-
-
-	# install qpwgrapg
-	yay -S --noconfirm qpwgraph
 
 
 popd
