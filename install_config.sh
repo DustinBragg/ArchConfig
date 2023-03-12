@@ -30,7 +30,7 @@ pushd "$USER_HOME/Scratch"
 	git clone https://aur.archlinux.org/yay-bin.git
 	chmod a+w yay-bin
 	pushd yay-bin
-		sudo -u $SUDO_USER makepkg -si --noconfirm
+		makepkg -si --noconfirm
 	popd
 
 popd
