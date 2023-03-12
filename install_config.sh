@@ -35,20 +35,24 @@ pacman -S --noconfirm --needed git base-devel
 pushd "$USER_HOME/Scratch"
 
 
-# install yay (AUR helper)
-git clone https://aur.archlinux.org/yay-bin.git
-chmod a+w yay-bin
-pushd yay-bin
-sudo -u $SUDO_USER makepkg -si --noconfirm
-popd
+	# install yay (AUR helper)
+	git clone https://aur.archlinux.org/yay-bin.git
+	chmod a+w yay-bin
+	pushd yay-bin
+		sudo -u $SUDO_USER makepkg -si --noconfirm
+	popd
 
 
-# install xterm, xrdb, and bash-completion
-yay -S --noconfirm xterm xrdb bash-completion
+	# install xterm, xrdb, and bash-completion
+	yay -S --noconfirm xterm xrdb bash-completion
 
 
-# install i3, i3blocks, and rofi
-yay -S --noconfirm i3 i3blocks rofi
+	# install i3, i3blocks, and rofi
+	yay -S --noconfirm i3 i3blocks rofi
+
+
+	# install fonts
+	yay -S --noconfirm ttf-dejavu ttf-google-fonts ttf-ms-fonts ttf-mac-fonts
 
 
 popd
