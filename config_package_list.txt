@@ -27,8 +27,8 @@ scrot
 xclip
 dunst
 qt5ct
-nordic-darker
-breeze-amber-cursor
+nordic-darker-theme
+breeze-amber-cursor-theme
 picom
 feh
 cifs-utils
