@@ -29,12 +29,12 @@ mkdir -p /home/$Username/.config/qt5ct
 mkdir -p /home/$Username/.config/ranger/colorschemes
 mkdir -p /home/$Username/.config/rofi
 mkdir -p /home/$Username/.icons
-cp -r ./files/home/* /home/$Username/
+cp -R ./files/home/* /home/$Username/
 mkdir -p /etc/lightdm
 mkdir -p /etc/X11/xorg.conf.d
 mkdir -p /usr/bin
 mkdir -p /usr/share/fonts/MyFonts
-cp -r ./files/root/* /
+cp -R ./files/root/* /
 
 
 #// Update username in lightdm-mini-greeter
