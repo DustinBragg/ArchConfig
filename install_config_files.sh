@@ -42,5 +42,5 @@ sed -i -e "/user =/ s/= .*/= $Username/" /etc/lightdm/lightdm-mini-greeter.conf
 
 #// Update font cache and permissions
 chmod -R 664 /usr/share/fonts/MyFonts
-fc-cache -f
+sudo -u $SUDO_USER fc-cache -f
 
