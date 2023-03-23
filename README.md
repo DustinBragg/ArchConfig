@@ -32,7 +32,7 @@ Once you're done running the scripts. Restart your machine and select i3 from th
 
 There is a chance the *'lightdm-mini-greeter'* isn't working, haven't tested yet but it isn't working in my VM. I also can't easily verify the cursor theme is working properly, so that may not be working either..!
 
-Finally, if you don't want picom (or it's causing issues), open a terminal (Win+D) and type *'pkill picom'*. Open *~/.config/i3/config* and remove the line that starts picom.
+Finally, if you don't want picom (or it's causing issues), open a terminal (Win+Enter) and type *'pkill picom'*. Open *~/.config/i3/config* and remove the line that starts picom.
 ```
 exec --no-startup-id picom -b --config ~/.config/picom/picom.conf
 ```
