@@ -13,11 +13,18 @@ ParallelDownloads = X
 
 ## install_config.sh
 **Don't run as root, you will be prompted for a sudo password when running the script**
+
 Fully installs and configures i3wm and related desktop environment stuff.
 
 ## install_config_files.sh
 **_MUST_ be run as root, you will be also be prompted for your user password when running the script**
+
 Installs multiple day-to-day apps that I would eventually have to install sooner or later.
 
 ## install_apps.sh
 Installs multiple day-to-day apps that I would eventually have to install sooner or later.
+
+
+---
+
+Once you're done running the scripts. Restart your machine and select i3 from the display manager. Once in, verify you can open rofi (Win+D) and a terminal (Win+Enter). Assuming it all works, run *'sudo dpkg-reconfigure'*
