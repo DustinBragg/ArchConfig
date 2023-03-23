@@ -20,7 +20,20 @@ echo "Installing config for user '$Username'..."
 
 
 #// Copy files over to 'home' and 'root'
+mkdir -p .config/dunst
+mkdir -p .config/fontconfig
+mkdir -p .config/gtk-3.0
+mkdir -p .config/i3
+mkdir -p .config/picom
+mkdir -p .config/qt5ct
+mkdir -p .config/ranger/colorschemes
+mkdir -p .config/rofi
+mkdir -p .icons
 cp -r ./files/home/* /home/$SUDO_USER/
+mkdir -p /etc/lightdm
+mkdir -p /etc/X11/xorg.conf.d
+mkdir -p /usr/bin
+mkdir -p /usr/share/fonts/MyFonts
 cp -r ./files/root/* /
 
 
