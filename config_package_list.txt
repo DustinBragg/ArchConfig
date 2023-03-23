@@ -1,4 +1,4 @@
-.xterm
+xterm
 xorg-xrdb
 bash-completion
 i3

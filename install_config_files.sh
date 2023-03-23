@@ -16,7 +16,7 @@ then
 fi
 
 
-echo "Installing config for user '$Username'...
+echo "Installing config for user '$Username'..."
 
 
 #// Copy files over to 'home' and 'root'

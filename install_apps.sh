@@ -9,5 +9,5 @@ then
 	exit
 fi
 
-# // Install packages from 'app_package_list.txt'
+#// Install packages from 'app_package_list.txt'
 yay -S --noconfirm --sudoloop --needed - < app_package_list.txt
