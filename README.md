@@ -9,6 +9,7 @@ ParallelDownloads = X
 ---
 
 **Scripts must be ran from a subfolder one-level deep in the home directory!**
+
 **(ex. *~/ArchConfig/install_config.sh*)**
 
 ## install_config.sh
