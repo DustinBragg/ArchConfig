@@ -30,6 +30,8 @@ pushd "$USER_HOME/Scratch"
 		makepkg -si --noconfirm
 	popd
 
+	rm -rf "$USER_HOME/Scratch/yay-bin"
+
 popd
 
 
