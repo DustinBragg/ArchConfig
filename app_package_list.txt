@@ -6,3 +6,4 @@ abcde-musicbrainz-meta
 flac
 firefox
 yt-dlp
+vlc
