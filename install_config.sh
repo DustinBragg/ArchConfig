@@ -35,7 +35,7 @@ popd
 
 #// Copy wallpapers over
 mkdir "$USER_HOME/Pictures/Wallpapers"
-cp ./Pictures/Wallpapers/* "$USER_HOME/Pictures/Wallpapers"
+cp ./files/home/Pictures/Wallpapers/* "$USER_HOME/Pictures/Wallpapers"
 
 
 #// Install packages from 'config_package_list.txt'
