@@ -1,4 +1,3 @@
-
 emacs
 gimp
 gimp-plugin-resynthesizer
