@@ -20,7 +20,7 @@ Fully installs and configures i3wm and related desktop environment stuff.
 ## install_config_files.sh
 **_MUST_ be run as root, you will be also be prompted for your user password when running the script**
 
-Installs multiple day-to-day apps that I would eventually have to install sooner or later.
+Installs multiple configuration files, primarily dotfiles.
 
 ## install_apps.sh
 Installs multiple day-to-day apps that I would eventually have to install sooner or later.
