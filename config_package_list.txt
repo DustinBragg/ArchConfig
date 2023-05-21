@@ -33,3 +33,4 @@ picom
 feh
 cifs-utils
 smbclient
+thunar
