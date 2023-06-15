@@ -6,6 +6,7 @@ i3blocks
 rofi
 lightdm-mini-greeter
 ttf-dejavu
+ttf-paratype
 ttf-ms-fonts
 ttf-mac-fonts
 cantarell-fonts
