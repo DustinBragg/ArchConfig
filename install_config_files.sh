@@ -30,13 +30,15 @@ mkdir -p /home/$Username/.config/picom
 mkdir -p /home/$Username/.config/qt5ct
 mkdir -p /home/$Username/.config/ranger/colorschemes
 mkdir -p /home/$Username/.config/rofi
+chmod -R 777 /home/$Username/.config
 mkdir -p /home/$Username/.icons
-cp -r ./files/home/. /home/$Username/
+chmod -R 777 /home/$Username/.icons
+cp -ra ./files/home/. /home/$Username/
 mkdir -p /etc/lightdm
 mkdir -p /etc/X11/xorg.conf.d
 mkdir -p /usr/bin
 mkdir -p /usr/share/fonts/MyFonts
-cp -r ./files/root/. /
+cp -ra ./files/root/. /
 
 
 #// Update username in lightdm-mini-greeter
