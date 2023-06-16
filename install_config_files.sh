@@ -41,10 +41,10 @@ mkdir -p /usr/share/fonts/MyFonts
 cp -ra ./files/root/. /
 
 
-#// Update username in lightdm-mini-greeter
+#// Update username in lightdm-mini-greeter and enable lightdm
 sed -i -e "/user =/ s/= .*/= $Username/" /etc/lightdm/lightdm-mini-greeter.conf
+sudo systemctl enable lightdm.service -f
 
 #// Update font cache and permissions
 chmod -R 777 /usr/share/fonts/MyFonts
 sudo -u $SUDO_USER fc-cache -f
-
