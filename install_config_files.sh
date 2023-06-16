@@ -41,6 +41,6 @@ cp -r ./files/root/. /
 sed -i -e "/user =/ s/= .*/= $Username/" /etc/lightdm/lightdm-mini-greeter.conf
 
 #// Update font cache and permissions
-chmod -R 664 /usr/share/fonts/MyFonts
+chmod -R 777 /usr/share/fonts/MyFonts
 sudo -u $SUDO_USER fc-cache -f
 
