@@ -25,6 +25,10 @@ Installs multiple configuration files, primarily dotfiles.
 ## install_apps.sh
 Installs multiple day-to-day apps that I would eventually have to install sooner or later.
 
+## install_eluk_mag_15_additional.sh
+**_MUST_ be run as root, you will be also be prompted for your user password when running the script**
+Installs additional things for an Eluktronics MAG-15 laptop. Battery/volume icons, keybinds for brightness/volume, etc.
+
 
 ---
 
