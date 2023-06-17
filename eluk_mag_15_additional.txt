@@ -1,3 +1,0 @@
-cbatticon
-volumeicon
-acpilight

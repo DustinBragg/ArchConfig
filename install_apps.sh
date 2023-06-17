@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#// Non-Root Check
+if [[ $EUID == 0 ]]; then
+	echo "This script must be run as a normal user."
+	exit 1
+fi
 
 #// Make sure 'yay' is installed
 which yay 2> /dev/null > /dev/null

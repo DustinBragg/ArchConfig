@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#// Non-Root Check
+if [[ $EUID == 0 ]]; then
+	echo "This script must be run as a normal user."
+	exit 1
+fi
 
 #// Get path to user's home directory
 USER_HOME=$HOME

@@ -18,9 +18,6 @@ fi
 
 echo "Installing config for user '$Username'..."
 
-#// Update config file permissions
-chmod -R 777 ./files/home
-
 #// Copy files over to 'home' and 'root'
 mkdir -p /home/$Username/.config/dunst
 mkdir -p /home/$Username/.config/fontconfig
