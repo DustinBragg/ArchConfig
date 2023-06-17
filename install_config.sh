@@ -17,12 +17,6 @@ mkdir -p "$USER_HOME/Pictures"
 mkdir -p "$USER_HOME/Scratch"
 mkdir -p "$USER_HOME/Shortcuts"
 mkdir -p "$USER_HOME/Software"
-chmod a+w "$USER_HOME/Downloads"
-chmod a+w "$USER_HOME/Games"
-chmod a+w "$USER_HOME/Pictures"
-chmod a+w "$USER_HOME/Scratch"
-chmod a+w "$USER_HOME/Shortcuts"
-chmod a+w "$USER_HOME/Software"
 
 
 #// Operate from within our Scratch directory
