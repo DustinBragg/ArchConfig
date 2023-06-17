@@ -19,18 +19,18 @@ fi
 echo "Installing config for user '$Username'..."
 
 #// Copy files over to 'home' and 'root'
-mkdir -p /home/$Username/.config/dunst
-mkdir -p /home/$Username/.config/fontconfig
-mkdir -p /home/$Username/.config/gtk-3.0
-mkdir -p /home/$Username/.config/i3
-mkdir -p /home/$Username/.config/picom
-mkdir -p /home/$Username/.config/qt5ct
-mkdir -p /home/$Username/.config/ranger/colorschemes
-mkdir -p /home/$Username/.config/rofi
-chmod -R 777 /home/$Username/.config
-mkdir -p /home/$Username/.icons
-chmod -R 777 /home/$Username/.icons
-cp -ra ./files/home/. /home/$Username/
+sudo -u $Username mkdir -p /home/$Username/.config/dunst
+sudo -u $Username mkdir -p /home/$Username/.config/fontconfig
+sudo -u $Username mkdir -p /home/$Username/.config/gtk-3.0
+sudo -u $Username mkdir -p /home/$Username/.config/i3
+sudo -u $Username mkdir -p /home/$Username/.config/picom
+sudo -u $Username mkdir -p /home/$Username/.config/qt5ct
+sudo -u $Username mkdir -p /home/$Username/.config/ranger/colorschemes
+sudo -u $Username mkdir -p /home/$Username/.config/rofi
+sudo -u $Username chmod -R 777 /home/$Username/.config
+sudo -u $Username mkdir -p /home/$Username/.icons
+sudo -u $Username chmod -R 777 /home/$Username/.icons
+sudo -u $Username cp -ra ./files/home/. /home/$Username/
 mkdir -p /etc/lightdm
 mkdir -p /etc/X11/xorg.conf.d
 mkdir -p /usr/bin
@@ -44,4 +44,4 @@ sudo systemctl enable lightdm.service -f
 
 #// Update font cache and permissions
 chmod -R 777 /usr/share/fonts/MyFonts
-sudo -u $SUDO_USER fc-cache -f
+sudo -u $Username fc-cache -f
