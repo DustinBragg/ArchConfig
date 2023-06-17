@@ -7,28 +7,21 @@ if [[ $EUID == 0 ]]; then
 	exit 1
 fi
 
-#// Get user name
-Username=$1
-if [ -z "$1" ]
-then
-	Username=$SUDO_USER
-fi
-
 #// Install apps specific to this laptop config
-sudo -u $Username yay -S --noconfirm --sudoloop --needed - < eluk_mag_15_additional_package_list.txt
+yay -S --noconfirm --sudoloop --needed - < eluk_mag_15_additional_package_list.txt
 
 #// Needed for backlight control
 groupadd video
-usermod -aG video $Username
+usermod -aG video $USER
 
 #// Append new i3 config stuff (volume/brightness binds, among others)
 #// This check makes this script idempotent
-if [[ ! -f "/home/$Username/.config/i3/config_bak" ]]
+if [[ ! -f "$HOME/.config/i3/config_bak" ]]
 then
-	cp /home/$Username/.config/i3/config /home/$Username/.config/i3/config_bak
+	cp $HOME/.config/i3/config $HOME/.config/i3/config_bak
 else
-	rm /home/$Username/.config/i3/config
-	cp /home/$Username/.config/i3/config_bak /home/$Username/.config/i3/config
+	rm $HOME/.config/i3/config
+	cp $HOME/.config/i3/config_bak $HOME/.config/i3/config
 fi
 
-cat ./files_eluk_mag_15_additional/home/.config/i3/config_append >> /home/$Username/.config/i3/config
+cat ./files_eluk_mag_15_additional/home/.config/i3/config_append >> $HOME/.config/i3/config

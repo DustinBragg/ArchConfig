@@ -37,5 +37,8 @@ popd
 #// Install packages from 'config_package_list.txt'
 yay -S --noconfirm --sudoloop --needed - < config_package_list.txt
 
+#// Remove some packages that cause slow startup for some apps
+yay -R --noconfirm malcontent flatpak xdg-desktop-portal
+
 
 ranger --copy-config all
