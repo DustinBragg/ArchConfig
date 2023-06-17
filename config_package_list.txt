@@ -36,3 +36,4 @@ cifs-utils
 smbclient
 thunar
 google-chrome
+alsa-utils
