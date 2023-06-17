@@ -35,3 +35,4 @@ feh
 cifs-utils
 smbclient
 thunar
+google-chrome
