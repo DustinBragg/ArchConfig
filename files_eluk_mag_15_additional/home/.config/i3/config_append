@@ -6,9 +6,6 @@
 # cbatticon
 exec --no-startup-id cbatticon -n
 
-# volumeicon
-exec --no-startup-id volumeicon
-
 # brightness keys
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -fps 20 -inc 10
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -fps 20 -inc -10
