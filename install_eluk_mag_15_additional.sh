@@ -10,10 +10,6 @@ fi
 #// Install apps specific to this laptop config
 yay -S --noconfirm --sudoloop --needed - < eluk_mag_15_additional_package_list.txt
 
-#// Needed for backlight control
-groupadd video
-usermod -aG video $USER
-
 #// Append new i3 config stuff (volume/brightness binds, among others)
 #// This check makes this script idempotent
 if [[ ! -f "$HOME/.config/i3/config_bak" ]]
@@ -25,3 +21,6 @@ else
 fi
 
 cat ./files_eluk_mag_15_additional/home/.config/i3/config_append >> $HOME/.config/i3/config
+
+#// Copy files over
+cp -r ./files_eluk_mag_15_additional/home/.config/volumeicon $HOME/.config/

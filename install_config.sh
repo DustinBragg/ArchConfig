@@ -9,7 +9,6 @@ fi
 #// Get path to user's home directory
 USER_HOME=$HOME
 
-
 #// Make home directories
 mkdir -p "$USER_HOME/Downloads"
 mkdir -p "$USER_HOME/Games"

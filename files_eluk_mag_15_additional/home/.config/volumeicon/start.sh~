@@ -1,5 +1,0 @@
-#!/bin/bash
-
-aplay ~/Scratch/silence.wav
-sleep 2
-volumeicon &
