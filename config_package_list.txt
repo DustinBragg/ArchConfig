@@ -8,7 +8,6 @@ lightdm-mini-greeter
 ttf-dejavu
 ttf-paratype
 ttf-ms-fonts
-cantarell-fonts
 gtk
 python-gobject
 python-xdg
