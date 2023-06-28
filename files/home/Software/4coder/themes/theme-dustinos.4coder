@@ -1,0 +1,45 @@
+defcolor_back = 0xFF141414;
+defcolor_margin = defcolor_back;
+defcolor_margin_hover = defcolor_back;
+defcolor_margin_active = defcolor_back;
+defcolor_list_item = {defcolor_back, defcolor_back};
+defcolor_list_item_hover = {0xFF202020, defcolor_back};
+defcolor_list_item_active = {0xFF303030, defcolor_back};
+defcolor_cursor = {0xFFEDB064, 0xFFED2541};
+defcolor_at_cursor = defcolor_back;
+defcolor_highlight_cursor_line = 0xFF323232;
+defcolor_highlight = 0xFF703419;
+defcolor_mark = 0xFF905E12;
+defcolor_text_default = 0xFFA68C68;
+defcolor_at_highlight = 0xFFFFFFFF;
+defcolor_comment = 0xFF656055;
+defcolor_comment_pop = {0xFF25A025, 0xFFA01010};
+defcolor_keyword = 0xFFE08505;
+defcolor_str_constant = 0xFF6090A0;
+defcolor_char_constant = defcolor_str_constant;
+defcolor_int_constant = defcolor_str_constant;
+defcolor_float_constant = defcolor_str_constant;
+defcolor_bool_constant = defcolor_str_constant;
+defcolor_include = 0xFF457585;
+defcolor_preproc = 0xFFD5C0A5;
+defcolor_special_character = 0xFFFF0000;
+defcolor_ghost_character = 0xFF5B4D3C;
+
+defcolor_paste = 0xFFFFFFFF;
+
+defcolor_undo = defcolor_paste;
+
+defcolor_highlight_junk = 0xFF323232;
+defcolor_highlight_white = 0xFF003A3A;
+
+defcolor_bar = 0xFF121212;
+defcolor_bar_active = defcolor_bar;
+defcolor_base = defcolor_preproc;
+defcolor_pop1 = 0xFF25A025;
+defcolor_pop2 = 0xFFA01010;
+
+defcolor_back_cycle = {0xFF181818, 0xFF1B1B1B, 0xFF1E1E1E, 0xFF212121, 0xFF242424, 0xFF272727, 0xFF2A2A2A, 0xFF2D2D2D, 0xFF303030};
+defcolor_text_cycle = {0xFFA02525, 0xFF25A025, 0xFF3050F0, 0xFFA025A0};
+
+defcolor_line_numbers_back = 0xFF202020;
+defcolor_line_numbers_text = 0xFF484848;
