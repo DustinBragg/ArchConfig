@@ -65,7 +65,7 @@ default_theme_name = "theme-dustinos";
 
 // Font
 //default_font_name = "liberation-mono.ttf";
-default_font_name = "TwilioSansMono-Medium.ttf";
+default_font_name = "TwilioSansMono-Semibold.ttf";
 //default_font_size = 15;
 default_font_size = 16;
 default_font_hinting = true;
