@@ -43,7 +43,7 @@ sed -i -e "/user =/ s/= .*/= $Username/" /etc/lightdm/lightdm-mini-greeter.conf
 sudo systemctl enable lightdm.service -f
 
 #// Update font cache and permissions
-chmod -R 777 /usr/share/fonts/MyFonts
+chmod -R 755 /usr/share/fonts/MyFonts
 sudo -u $Username fc-cache -f
 
 #// Needed for backlight control
