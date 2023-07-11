@@ -1,5 +1,5 @@
 # Terminal
-set $Terminal xterm
+set $Terminal alacritty
 
 # Redshift Location
 set $Latitude 38.48208
