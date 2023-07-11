@@ -27,9 +27,9 @@ sudo -u $Username mkdir -p /home/$Username/.config/picom
 sudo -u $Username mkdir -p /home/$Username/.config/qt5ct
 sudo -u $Username mkdir -p /home/$Username/.config/ranger/colorschemes
 sudo -u $Username mkdir -p /home/$Username/.config/rofi
-sudo -u $Username chmod -R 777 /home/$Username/.config
+sudo -u $Username chmod -R 755 /home/$Username/.config
 sudo -u $Username mkdir -p /home/$Username/.icons
-sudo -u $Username chmod -R 777 /home/$Username/.icons
+sudo -u $Username chmod -R 755 /home/$Username/.icons
 sudo -u $Username cp -ra ./files/home/. /home/$Username/
 mkdir -p /etc/lightdm
 mkdir -p /etc/X11/xorg.conf.d
