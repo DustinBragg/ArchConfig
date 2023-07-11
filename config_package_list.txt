@@ -37,3 +37,4 @@ thunar
 google-chrome
 alsa-utils
 tmux
+alacritty
