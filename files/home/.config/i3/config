@@ -39,9 +39,9 @@ set $BindingModeOutline          #CD9044
 set $BindingModeBackground       #602E02
 
 # Fonts
-set $MainFontPango PT Sans Mono Bold 12
-set $BarFontPango PT Sans Caption Bold 12
-set $LogoutBarFontPango PT Sans Mono Regular 10
+set $MainFontPango Twilio Sans Mono Bold 13
+set $BarFontPango Twilio Sans Mono Bold 13
+set $LogoutBarFontPango Twilio Sans Mono Regular 10
 
 
 ####
