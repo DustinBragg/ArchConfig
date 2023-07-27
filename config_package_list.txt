@@ -34,7 +34,8 @@ feh
 cifs-utils
 smbclient
 thunar
-google-chrome
 alsa-utils
 tmux
 alacritty
+brave-bin
+

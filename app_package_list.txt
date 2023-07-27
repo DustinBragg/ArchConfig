@@ -4,6 +4,5 @@ gimp-plugin-resynthesizer
 abcde
 abcde-musicbrainz-meta
 flac
-brave-bin
 yt-dlp
 vlc
