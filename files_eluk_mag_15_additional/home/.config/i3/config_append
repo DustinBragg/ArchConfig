@@ -11,5 +11,5 @@ bindsym XF86MonBrightnessUp exec --no-startup-id ~/.config/i3/brightness_ctl.sh 
 bindsym XF86MonBrightnessDown exec --no-startup-id ~/.config/i3/brightness_ctl.sh -
 
 # volumeicon hackery
-exec "~/.config/volumeicon/start.sh"
+exec --no-startup-id "~/.config/volumeicon/start.sh"
 
