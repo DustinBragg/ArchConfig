@@ -24,3 +24,4 @@ cat ./files_eluk_mag_15_additional/home/.config/i3/config_append >> $HOME/.confi
 
 #// Copy files over
 cp -r ./files_eluk_mag_15_additional/home/.config/volumeicon $HOME/.config/
+cp -p ./files_eluk_mag_15_additional/home/.config/i3/brightness_ctl.sh $HOME/.config/i3/

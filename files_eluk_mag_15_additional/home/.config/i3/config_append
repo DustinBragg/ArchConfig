@@ -7,8 +7,8 @@
 exec --no-startup-id cbatticon -n
 
 # brightness keys
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -fps 20 -inc 10
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -fps 20 -inc -10
+bindsym XF86MonBrightnessUp exec --no-startup-id ~/.config/i3/brightness_ctl.sh +
+bindsym XF86MonBrightnessDown exec --no-startup-id ~/.config/i3/brightness_ctl.sh -
 
 # volumeicon hackery
 exec "~/.config/volumeicon/start.sh"
