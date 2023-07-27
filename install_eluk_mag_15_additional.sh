@@ -11,14 +11,10 @@ fi
 yay -S --noconfirm --sudoloop --needed - < eluk_mag_15_additional_package_list.txt
 
 #// Append new i3 config stuff (volume/brightness binds, among others)
-#// This check makes this script idempotent
-if [[ ! -f "$HOME/.config/i3/config_bak" ]]
-then
-	cp $HOME/.config/i3/config $HOME/.config/i3/config_bak
-else
-	rm $HOME/.config/i3/config
-	cp $HOME/.config/i3/config_bak $HOME/.config/i3/config
-fi
+#// Copy the first config over to make this idempotent
+
+rm $HOME/.config/i3/config
+cp -p $HOME/ArchConfig/files/home/.config/i3/config $HOME/.config/i3/config
 
 cat ./files_eluk_mag_15_additional/home/.config/i3/config_append >> $HOME/.config/i3/config
 
