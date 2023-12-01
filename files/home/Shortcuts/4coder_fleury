@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pushd ~/Software/4coder
+./4ed -U 4coder_fleury
+popd
