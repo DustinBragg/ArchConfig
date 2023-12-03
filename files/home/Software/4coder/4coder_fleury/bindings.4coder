@@ -9,7 +9,7 @@ keys_global =
     { "change_active_panel",                      "Comma",  "Control"                  },
     { "change_active_panel_backwards",            "Comma",  "Control", "Shift"         },
     { "project_go_to_root_directory",             "H",      "Control"                  },
-    { "f4_toggle_compilation_expand",         "Insert"                             },
+    { "f4_toggle_compilation_expand",             "M",      "Control", "Alt"           },
     { "change_to_build_panel",                    "Period", "Alt"                      },
     { "close_build_panel",                        "Comma",  "Alt"                      },
     { "f4_switch_syntax_option",                  "Tick",   "Control"                  },
