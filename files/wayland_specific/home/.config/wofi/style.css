@@ -1,0 +1,84 @@
+@define-color border_color #CD9044;
+
+@define-color search_bg    #202020;
+@define-color search_text  #FFEEDD;
+
+@define-color results_bg       #242424;
+@define-color results_padding  @search_bg;
+@define-color results_text     #A88E70;
+
+* {
+    outline: none;
+    font-family: TwilioSansMono;
+    font-weight: bold;
+}
+
+window {
+    opacity: 0.0;
+    transition-property: opacity;
+    transition-duration: 200ms;
+    
+    border: 5px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: @border_color;
+    
+    background-color: @border_color;
+    
+    font-size: 18px;
+}
+
+window:focused {
+    opacity: 0.95;
+}
+
+#input {
+border-width: 0px 0px 2px 0px;
+border-style: solid;
+border-color: @border_color;
+
+padding: 0px;
+margin: 0px;
+
+color: @search_text;
+background-color: @search_bg;
+}
+
+#inner-box {
+padding: 0px;
+margin: 0px;
+color: @results_text;
+background-color: @results_padding;
+}
+
+#outer-box {
+padding: 4px;
+}
+
+#selected {
+background-color: @border_color;
+color: #FFFFFF;
+}
+
+#entry {
+padding: 0px;
+margin: 0px 0px 8px 0px;
+background-color: @results_bg;
+}
+
+#entry:selected {
+border: none;
+}
+
+#text {
+margin: 0px;
+padding: 2px 2px 2px 10px;
+}
+
+#text:selected {
+border: none;
+}
+
+#scroll {
+background-color: @results_bg;
+}

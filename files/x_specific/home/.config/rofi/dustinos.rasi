@@ -1,0 +1,120 @@
+* {
+	prompt-color:		 	#AAAAAA;
+	search-text-color:		#FFEEDD;
+	search-placeholder-color: #666666;
+	item-bg:				  #202020;
+	item-bg-alt:			  #242424;
+	item-text:				#A88E70;
+	item-text-alt:			@item-text;
+	item-bg-sel:			  #CD9044;
+	item-text-sel:			#FFEEDD;
+}
+element {
+    padding: 1px;
+    cursor:  pointer;
+    spacing: 5px;
+    border:  0;
+}
+element normal.normal {
+    background-color: @item-bg;
+    text-color:       @item-text;
+}
+element normal.active {
+    background-color: @item-bg;
+    text-color:       @item-text;
+}
+element selected.normal {
+    background-color: @item-bg-sel;
+    text-color:       @item-text-sel;
+}
+element selected.active {
+    background-color: @item-bg-sel;
+    text-color:       @item-text-sel;
+}
+element alternate.normal {
+    background-color: @item-bg-alt;
+    text-color:       @item-text-alt;
+}
+element alternate.active {
+    background-color: @item-bg-alt;
+    text-color:       @item-text-alt;
+}
+element-text {
+    background-color: transparent;
+    cursor:           inherit;
+    highlight:        inherit;
+    text-color:       inherit;
+}
+window {
+    padding:          3;
+    background-color: @item-bg-sel;
+    border:           0;
+	border-radius:    4;
+}
+mainbox {
+    padding:		  3;
+    border:		   0;
+	background-color: @item-bg;
+}
+message {
+    padding:			1px;
+    border-color:	   @item-bg-sel;
+	background-color:   @item-bg;
+	text-color:		 @item-text;
+    border:			 2px solid 0px 0px;
+}
+textbox {
+	padding:			4px;
+    text-color:		 #AA4444;
+	background-color:   #222222;
+}
+listview {
+    padding:			1px;
+    border-color:	   @item-bg-sel;
+    border:			 0px solid 0px 0px;
+	background-color:   @item-bg;
+    spacing:			2px;
+	lines:			  20;
+    scrollbar:		  false;
+}
+num-filtered-rows {
+    expand:			false;
+    text-color:		@item-bg;
+	background-color:  @item-bg;
+}
+num-rows {
+    expand:			false;
+    text-color:		@item-bg;
+	background-color:  @item-bg;
+}
+textbox-num-sep {
+    expand:			false;
+    str:			   "";
+    text-color:		@item-bg;
+	background-color:  @item-bg;
+}
+inputbar {
+    padding:			1px;
+    spacing:			0px;
+	background-color:   @item-bg;
+    children:		   [ "prompt","textbox-prompt-colon","entry","num-filtered-rows","textbox-num-sep","num-rows" ];
+}
+entry {
+    text-color:        @search-text-color;
+	background-color:  @item-bg;
+    cursor:            text;
+    spacing:           0;
+    placeholder-color: @search-placeholder-color;
+    placeholder:       "Search";
+}
+prompt {
+    text-color:		@prompt-color;
+	background-color:  @item-bg;
+}
+textbox-prompt-colon {
+    margin:			0px 0.5000em 0.0000em 0.0000em;
+    expand:			false;
+    str:			   "->";
+    text-color:		@prompt-color;
+	background-color:  @item-bg;
+}

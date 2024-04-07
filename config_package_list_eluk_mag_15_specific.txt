@@ -1,0 +1,5 @@
+acpilight
+cbatticon
+envycontrol
+tlp
+volumeicon

@@ -1,0 +1,100 @@
+// -*- mode: jsonc -*-
+{
+	"bar_id": "bar-0",
+	"ipc": true,
+    "layer": "top",
+    "position": "bottom",
+    "spacing": 0,
+	"reload_style_on_change": true,
+
+    // Choose the order of the modules
+    "modules-left": [
+        "sway/workspaces",
+        "sway/mode",
+        "sway/scratchpad",
+    ],
+
+    "modules-right": [
+        "temperature#cpu",
+        "temperature#gpu",
+        "pulseaudio",
+		"custom/wlsunset",
+        "clock#date",
+        "clock#12h",
+        "clock#24h",
+		"tray"
+    ],
+
+    // Modules configuration
+    "sway/workspaces": {
+		"current-only": false,
+		"all-outputs": false
+    },
+
+    "sway/scratchpad": {
+        "format": "{icon} {count}",
+        "show-empty": false,
+        "format-icons": ["", ""],
+        "tooltip": true,
+        "tooltip-format": "{app}: {title}"
+    },
+
+    "temperature#cpu": {
+		"tooltip-format": "CPU Temperature",
+        // "thermal-zone": 2,
+        "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC}°C {icon}",
+        "format": " {temperatureC}°C",
+        "format-icons": ["", "", ""]
+    },
+
+    "temperature#gpu": {
+		"tooltip-format": "GPU Temperature",
+        // "thermal-zone": 2,
+        "hwmon-path": "/sys/class/hwmon/hwmon4/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC}°C {icon}",
+        "format": " {temperatureC}°C",
+        "format-icons": ["", "", ""]
+    },
+
+    "pulseaudio": {
+        "scroll-step": 5,
+		"min-length": 8,
+        "format": "{volume}% {icon}",
+        "format-muted": "{volume}% ",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+		"tooltip": false,
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+
+	"custom/wlsunset": {
+		"exec": "$HOME/.config/waybar/custom_modules/wlsunset.sh",
+		"on-click": "$HOME/.config/waybar/custom_modules/wlsunset_toggle.sh",
+		"format": "{}",
+		"interval": "once",
+		"signal": 52
+	},
+
+    "clock#date": {
+		"format": "{:%A, %b %e, %Y}",
+	},
+
+    "clock#12h": {
+		"interval": 1,
+        "format": "{:%I:%M %p}"
+    },
+
+    "clock#24h": {
+		"interval": 1,
+        "format": "{:%H:%M}"
+    },
+
+    "tray": {
+		"icon-size": 24,
+        "spacing": 10
+    }
+}

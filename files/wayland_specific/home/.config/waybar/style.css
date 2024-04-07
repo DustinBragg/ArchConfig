@@ -1,0 +1,83 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome, TwilioSansMono;
+    font-weight: bold;
+}
+
+window#waybar {
+opacity: 1.0;
+background-color: #202020;
+border: none;
+color: #FFEEDD;
+transition-property: opacity;
+transition-duration: 200ms;
+}
+
+window#waybar.hidden {
+opacity: 0.0;
+transition-duration: 100ms;
+}
+
+@keyframes urgent_flash {
+    0%   {background-color: #202020;}
+        80%  {background-color: #BD8034;}
+            100% {background-color: #CD9044;}
+            }
+            
+#workspaces button {
+            font-size: 20px;
+            padding: 2px 6px 2px 6px;
+            margin: 5px 0px 5px 5px;
+            border: none;
+            color: #666156;
+            transition-property: background-color;
+            transition-duration: 100ms;
+        }
+        
+#workspaces button:hover {
+        color: #999081;
+    }
+    
+#workspaces button.focused {
+    color: #FFEEDD;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+#workspaces button.urgent {
+color: #FFFFFF;
+background-color: #CD9044;
+animation-name: urgent_flash;
+animation-duration: 300ms;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+
+#tray {
+padding: 8px 8px 8px 32px;
+border: none;
+background-image: linear-gradient(to right, rgba(16, 16, 16, 0.0), rgba(16, 16, 16, 1.0), rgba(16, 16, 16, 1.0), rgba(16, 16, 16, 1.0));
+}
+
+#mode {
+padding: 0px 8px 0px 8px;
+margin: 2px 4px 2px 4px;
+border: solid 2px #CD9044;
+border-radius: 1px;
+background-color: #9D6014;
+}
+
+#clock,
+#cpu,
+#pulseaudio,
+#scratchpad,
+#temperature,
+#custom-wlsunset {
+font-size: 16px;
+padding: 0px 8px 0px 8px;
+margin: 0px 4px 0px 4px;
+border: none;
+border-radius: 12px;
+color: #FFEEDD;
+background-color: #303030;
+}

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+exists=$(man $*)
+if [[ $? == 0 ]]; then
+   emacs -nw --eval "(progn (man \"$*\") (delete-window))"
+fi

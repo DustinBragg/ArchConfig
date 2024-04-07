@@ -1,0 +1,323 @@
+# Default config for sway
+#
+# Copy this to ~/.config/sway/config and edit it to your liking.
+#
+# Read `man 5 sway` for a complete reference.
+
+### Variables
+#
+# Logo key. Use Mod1 for Alt.
+set $mod Mod4
+# Your preferred terminal emulator
+set $term alacritty
+# Your preferred application launcher
+# Note: pass the final command to swaymsg so that the resulting window can be opened
+# on the original workspace that the command was run on.
+set $menu wofi --show run -L6 -W1080 -lcenter | wmenu | xargs swaymsg exec --
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws0 "0"
+
+# Colors
+set $FocusedTitleBackground      #CD9044
+set $ActiveTitleBackground       #602E02
+set $InactiveTitleBackground     #402000
+
+set $FocusedTitleBorder          #CD9044
+set $ActiveTitleBorder           #602E02
+set $InactiveTitleBorder         #402000
+
+set $FocusedTitleText            #FFFFFF
+set $ActiveTitleText             #AAAAAA
+set $InactiveTitleText           #555555
+
+set $FocusedSplitInd             #FDC074
+set $ActiveSplitInd              #602E02
+set $InactiveSplitInd            #602E02
+
+set $FocusedBorder               #AD7024
+set $ActiveBorder                #602E02
+set $InactiveBorder              #602E02
+
+set $BarBackground               #141414
+set $BarText                     #FFEEDD
+set $BarSeparator                #EDB064
+
+set $BarFocusedWSText            #FFEEDD
+set $BarActiveWSText             #AA9988
+set $BarInactiveWSText           #665544
+set $UrgentOutline               #CD9044
+
+set $BindingModeOutline          #ED900C
+set $BindingModeBackground       #9D6014
+
+set $EditorOpacity               0.96
+
+# Fonts
+set $MainFontPango Twilio Sans Mono Bold 12
+set $LogoutBarFontPango Twilio Sans Mono bold 12
+
+### Output configuration
+#
+
+# Monitor layout
+output DP-1 mode 2560x1440@120Hz position 0,1440 scale 1.0 adaptive_sync on
+output DP-2 mode 2560x1440@120Hz position 0,0 scale 1.0 adaptive_sync on
+output DP-3 mode 3840x2160@120Hz position 2560,600 scale 1.0 adaptive_sync on
+exec xrandr --output DP-3 --primary
+exec wlsunset -l 37.6 -L -97.3
+
+### Appearance configuration
+default_border pixel 1
+default_floating_border normal
+hide_edge_borders both
+
+# Opacities
+for_window [class="Emacs"] opacity $EditorOpacity
+for_window [class="4coder"] opacity $EditorOpacity
+
+# Font for window titles
+font pango:$MainFontPango
+
+### Startup configuration
+#
+# Startup programs go here
+#
+
+exec nm-applet
+exec mako --background-color=#202020 --border-color=$FocusedSplitInd --anchor=bottom-left --outer-margin=50 --font="Twilio Sans Mono 10" --layer=overlay
+
+# Theme settings for GTK because everything is terrible!
+set $gnome-schema org.gnome.desktop.interface
+exec_always {
+	gsettings set org.gnome.desktop.interface gtk-theme 'Sunrise-Dark'
+	gsettings set org.gnome.desktop.interface icon-theme 'Material-Black-Mango-Numix-FLAT'
+	gsettings set org.gnome.desktop.interface cursor-theme 'Breeze_Amber'
+	gsettings set org.gnome.desktop.interface font-name 'SourceCodeVF, 13'
+}
+
+# Make Thunar the default file manager
+exec_always xdg-mime default thunar.desktop inode/directory
+
+# Wallpapers because everything is terrible
+exec ~/Scripts/Wallpapers.sh
+
+### Idle configuration
+#
+# Example configuration:
+#
+# exec swayidle -w \
+#          timeout 300 'swaylock -f -c 000000' \
+#          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+#          before-sleep 'swaylock -f -c 000000'
+#
+# This will lock your screen after 300 seconds of inactivity, then turn off
+# your displays after another 300 seconds, and turn your screens back on when
+# resumed. It will also lock your screen before your computer goes to sleep.
+
+### Input configuration
+#
+# Example configuration:
+#
+#   input "2:14:SynPS/2_Synaptics_TouchPad" {
+#       dwt enabled
+#       tap enabled
+#       natural_scroll enabled
+#       middle_emulation enabled
+#   }
+#
+# You can get the names of your inputs by running: swaymsg -t get_inputs
+# Read `man 5 sway-input` for more information about this section.
+
+# Mouse
+input "pointer" {
+    accel_profile flat
+}
+
+### Key bindings
+#
+# Basics:
+#
+    # Start a terminal
+    bindsym $mod+Return exec $term
+
+    # Kill focused window
+    bindsym $mod+Shift+q kill
+
+    # Start your launcher
+    bindsym $mod+d exec $menu
+
+    # Drag floating windows by holding down $mod and left mouse button.
+    # Resize them with right mouse button + $mod.
+    # Despite the name, also works for non-floating windows.
+    # Change normal to inverse to use left mouse button for resizing and right
+    # mouse button for dragging.
+    floating_modifier $mod normal
+
+    # Reload the configuration file
+    bindsym $mod+Shift+c reload
+
+	# Start a calculator
+	bindsym $mod+c exec --no-startup-id $term -e "qalc"
+
+	# Imgur Screenshot
+	bindsym Ctrl+Shift+4 exec "~/Scripts/screenshot --notify --action imgur --type select --path ~/Scratch"
+
+    # Exit sway (logs you out of your Wayland session)
+    bindsym $mod+Shift+e exec swaynag -t warning -f 'pango:$LogoutBarFontPango' -m "" -B '' 'systemctl poweroff' -B '' 'systemctl reboot' -B '' 'swaymsg exit'
+#
+# Moving around:
+#
+    # Move your focus around
+    bindsym $mod+Left focus left
+    bindsym $mod+Down focus down
+    bindsym $mod+Up focus up
+    bindsym $mod+Right focus right
+
+    # Move the focused window with the same, but add Shift
+    bindsym $mod+Shift+Left move left
+    bindsym $mod+Shift+Down move down
+    bindsym $mod+Shift+Up move up
+    bindsym $mod+Shift+Right move right
+#
+# Workspaces:
+#
+    # Switch to workspace
+    bindsym $mod+1 workspace number $ws1
+    bindsym $mod+2 workspace number $ws2
+    bindsym $mod+3 workspace number $ws3
+    bindsym $mod+4 workspace number $ws4
+    bindsym $mod+5 workspace number $ws5
+    bindsym $mod+6 workspace number $ws6
+    bindsym $mod+7 workspace number $ws7
+    bindsym $mod+8 workspace number $ws8
+    bindsym $mod+9 workspace number $ws9
+    bindsym $mod+0 workspace number $ws0
+
+    # Move focused container to workspace
+    bindsym $mod+Shift+1 move container to workspace number $ws1
+    bindsym $mod+Shift+2 move container to workspace number $ws2
+    bindsym $mod+Shift+3 move container to workspace number $ws3
+    bindsym $mod+Shift+4 move container to workspace number $ws4
+    bindsym $mod+Shift+5 move container to workspace number $ws5
+    bindsym $mod+Shift+6 move container to workspace number $ws6
+    bindsym $mod+Shift+7 move container to workspace number $ws7
+    bindsym $mod+Shift+8 move container to workspace number $ws8
+    bindsym $mod+Shift+9 move container to workspace number $ws9
+    bindsym $mod+Shift+0 move container to workspace number $ws0
+
+    # Move active workspace
+    bindsym $mod+Ctrl+Shift+Left move workspace to output left
+    bindsym $mod+Ctrl+Shift+Down move workspace to output down
+    bindsym $mod+Ctrl+Shift+Up move workspace to output up
+    bindsym $mod+Ctrl+Shift+Right move workspace to output right
+
+#
+# Layout stuff:
+#
+    # You can "split" the current object of your focus with
+    # $mod+h or $mod+v, for horizontal and vertical splits
+    # respectively.
+    bindsym $mod+h splith
+    bindsym $mod+v splitv
+
+    # Switch the current container between different layout styles
+    bindsym $mod+s layout stacking
+    bindsym $mod+w layout tabbed
+    bindsym $mod+e layout toggle split
+
+    # Make the current focus fullscreen
+    bindsym $mod+f fullscreen
+
+    # Toggle the current focus between tiling and floating mode
+    bindsym $mod+Shift+space floating toggle
+
+    # Swap focus between the tiling area and the floating area
+    bindsym $mod+space focus mode_toggle
+
+    # Move focus to the parent container
+    bindsym $mod+a focus parent
+#
+# Scratchpad:
+#
+    # Sway has a "scratchpad", which is a bag of holding for windows.
+    # You can send windows there and get them back later.
+
+    # Move the currently focused window to the scratchpad
+    bindsym $mod+Shift+minus move scratchpad
+
+    # Show the next scratchpad window or hide the focused scratchpad window.
+    # If there are multiple scratchpad windows, this command cycles through them.
+    bindsym $mod+minus scratchpad show
+#
+# Resizing containers:
+#
+mode "resize" {
+    # left will shrink the containers width
+    # right will grow the containers width
+    # up will shrink the containers height
+    # down will grow the containers height
+    bindsym Left resize shrink width 50px
+    bindsym Down resize grow height 50px
+    bindsym Up resize shrink height 50px
+    bindsym Right resize grow width 50px
+
+    # holding shift will resize larger
+    bindsym Shift+Left resize shrink width 250px
+    bindsym Shift+Down resize grow height 250px
+    bindsym Shift+Up resize shrink height 250px
+    bindsym Shift+Right resize grow width 250px
+
+    # Return to default mode
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+#
+# Status Bar:
+#
+# Read `man 5 sway-bar` for more information about this section.
+bar {
+    position bottom
+    mode hide
+	modifier $mod
+
+# Choose either 'waybar' or 'swaybar with basic status_command'
+# _But not both_
+    swaybar_command waybar
+#	status_command while date +'%A, %b %e, %Y - %I:%M %p - %H:%M |'; do sleep 1; done
+
+    colors {
+        background          $BarBackground
+	    statusline          $BarText
+	    separator           $BarSeparator
+	    focused_workspace   $BarBackground       $BarBackground          $BarFocusedWSText
+	    active_workspace    $BarBackground       $BarBackground          $BarActiveWSText
+	    inactive_workspace  $BarBackground       $BarBackground          $BarInactiveWSText
+	    urgent_workspace    $UrgentOutline       $UrgentOutline          $BarText
+	    binding_mode        $BindingModeOutline  $BindingModeBackground  $BarText
+    }
+}
+
+# Window colors
+# class                 [ border | backgr. | text | indicator | child_border ]
+client.focused          $FocusedTitleBorder  $FocusedTitleBackground   $FocusedTitleText   $FocusedSplitInd   $FocusedBorder
+client.focused_inactive $ActiveTitleBorder   $ActiveTitleBackground    $ActiveTitleText    $ActiveSplitInd    $ActiveBorder
+client.unfocused        $InactiveTitleBorder $InactiveTitleBackground  $InactiveTitleText  $InactiveSplitInd  $InactiveBorder
+client.urgent           #2f343a              $UrgentOutline            #ffffff  $UrgentOutline     $UrgentOutline
+client.placeholder      #000000              #0c0c0c                   #ffffff  #000000            #0c0c0c
+
+client.background       $BarBackground
+
+include /etc/sway/config.d/*

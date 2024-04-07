@@ -1,0 +1,34 @@
+shell = "fish"
+
+[window]
+opacity = 0.96
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+title = "Terminal (Alacritty)"
+
+[font]
+normal = { family = "TwilioSansMono", style = "Regular" }
+size = 14
+
+[colors]
+primary = { foreground = "#A88E70", background = "#202020", bright_foreground = "#C8AE90" }
+cursor = { text = "#000000", cursor = "#EDB064" }
+search = { matches = { foreground = "#FFFFFF", background = "#905E12" }, focused_match = { foreground = "#FFFFFF", background = "#EDB064" } }
+line_indicator = { foreground = "#202020", background = "#A88E70" }
+footer_bar = { foreground = "#202020", background = "#A88E70" }
+draw_bold_text_with_bright_colors = false
+
+[colors.normal]
+black = "#555555"
+
+[colors.bright]
+black = "#666666"
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval = 500
+blink_timeout = 0
+thickness = 0.15

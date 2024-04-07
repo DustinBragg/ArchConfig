@@ -1,0 +1,14 @@
+grim
+mako
+slurp
+sway
+swaybg
+swayidle
+swaylock
+ueberzugpp
+waybar
+wl-clipboard
+wlsunset
+wofi
+xorg-xrandr
+xorg-xwayland

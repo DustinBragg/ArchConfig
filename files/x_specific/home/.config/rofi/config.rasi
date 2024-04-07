@@ -1,0 +1,6 @@
+configuration {
+	modes: "run";
+	font: "Twilio Sans Mono Bold 12";
+	show-icons: false;
+}
+@theme "dustinos"

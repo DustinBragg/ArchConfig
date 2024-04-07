@@ -1,0 +1,15 @@
+
+
+
+#// Additional config for Eluktronic Mag-15 laptops
+
+# cbatticon
+exec --no-startup-id cbatticon -n
+
+# brightness keys
+bindsym XF86MonBrightnessUp exec --no-startup-id ~/.config/i3/brightness_ctl.sh +
+bindsym XF86MonBrightnessDown exec --no-startup-id ~/.config/i3/brightness_ctl.sh -
+
+# volumeicon hackery
+exec --no-startup-id "~/.config/volumeicon/start.sh"
+

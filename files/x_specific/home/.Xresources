@@ -1,0 +1,57 @@
+!# Cursor
+Xcursor.size: 16
+Xcursor.theme: xcursor-breeze-amber
+
+!# Fix backspace in Emacs
+xterm.*backarrowKey: false
+
+!# Random Config
+xterm*termName: xterm-256color
+xterm*loginShell: true
+xterm*saveLines: 4096
+xterm*scrollBar: false
+xterm*rightScrollBar: false
+
+!# Double click selects whole URLs
+xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+!# Font
+xterm*faceName: Twilio Sans Mono Medium
+xterm*faceSize: 12
+
+!# Colors
+xterm*foreground:  #A68C68
+xterm*background:  #141414
+xterm*cursorColor: #EDB064
+
+!# Blacks
+xterm*color0:           #050505
+xterm*color8:           #666666
+
+!# Reds
+xterm*color1:           #A60101
+xterm*color9:           #F99090
+
+!# Greens
+xterm*color2:           #759777
+xterm*color10:          #A7E14B
+
+!# Yellows
+xterm*color3:           #AB6E03
+xterm*color11:          #FDDC01
+
+!# Blues
+xterm*color4:           #4A5463
+xterm*color12:          #7D8794
+
+!# Purples
+xterm*color5:           #9C3885
+xterm*color13:          #E628BA
+
+!# Cyans
+xterm*color6:           #08BAB0
+xterm*color14:          #74FFF7
+
+!# Whites
+xterm*color7:           #BBBBBB
+xterm*color15:          #FFFFFF

@@ -1,0 +1,12 @@
+dunst
+feh
+i3
+i3blocks
+imgur-screenshot
+picom
+rofi
+scrot
+ueberzug
+xorg-xrdb
+xclip
+xterm
