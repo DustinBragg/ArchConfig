@@ -65,7 +65,7 @@ set $EditorOpacity               0.96
 
 # Fonts
 set $MainFontPango Twilio Sans Mono Bold 12
-set $LogoutBarFontPango Twilio Sans Mono bold 12
+set $LogoutBarFontPango Twilio Sans Mono Semibold 12
 
 ### Output configuration
 #
