@@ -62,6 +62,9 @@ popd
 
 #// Install packages from the generic config package list
 section_header_with_output "Installing packages..."
+#// Install python2 manually to avoid the checks
+yay -S python2 --mflags "--nocheck"
+#// Install everything else
 yay -S --noconfirm --sudoloop --needed - < config_package_list_generic.txt
 
 #// Copy over user config/dot files
