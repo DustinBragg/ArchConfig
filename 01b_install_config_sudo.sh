@@ -20,7 +20,7 @@ fi
 
 if [ "$1" != "-s" ]; then
    echo "-*************-"
-   echo "Make sure you ran the normal 'install_config.sh' file first. Things will not work properly if you haven't run that script first."
+   echo "Make sure you ran the normal '01a_install_config.sh' file first. Things will not work properly if you haven't run that script first."
    echo "-*************-"
    read -p "Press Ctrl+C to stop or ENTER to proceed "
 fi
