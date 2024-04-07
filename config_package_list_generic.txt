@@ -25,7 +25,6 @@ pavucontrol
 python-gobject
 python-xdg
 python
-qalc
 qpwgraph
 qt5ct
 qt6ct
