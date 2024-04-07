@@ -4,4 +4,4 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-. "${HOME}/Aliases.sh"
+. "${HOME}/Scripts/Aliases.sh"
