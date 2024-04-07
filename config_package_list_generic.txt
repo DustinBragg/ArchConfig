@@ -1,6 +1,7 @@
 7-zip-full
 abcde
 abcde-musicbrainz-meta
+adobe-source-code-pro-fonts
 alacritty
 alsa-utils
 bash-completion
