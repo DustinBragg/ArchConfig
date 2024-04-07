@@ -42,7 +42,7 @@ set $EditorOpacity               0.96
 
 # Fonts
 set $MainFontPango Twilio Sans Mono Bold 12
-set $LogoutBarFontPango Twilio Sans Mono bold 12
+set $LogoutBarFontPango Twilio Sans Mono Semibold 12
 
 ####
 
@@ -228,7 +228,7 @@ bar {
 	status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	tray_output primary
 	mode hide
-	font pango:$BarFontPango
+	font pango:$LogoutBarFontPango
 
 	colors {
 	    background          $BarBackground
