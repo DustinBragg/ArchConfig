@@ -81,13 +81,10 @@ exec --no-startup-id /usr/bin/dunst
 
 # Theme settings for GTK because everything is terrible!
 set $gnome-schema org.gnome.desktop.interface
-exec_always {
-	gsettings set org.gnome.desktop.interface gtk-theme 'Sunrise-Dark'
-	gsettings set org.gnome.desktop.interface icon-theme 'Material-Black-Mango-Numix-FLAT'
-	gsettings set org.gnome.desktop.interface cursor-theme 'Breeze_Amber'
-	gsettings set org.gnome.desktop.interface font-name 'SourceCodeVF, 13'
-}
-
+exec gsettings set org.gnome.desktop.interface gtk-theme 'Sunrise-Dark'
+exec gsettings set org.gnome.desktop.interface icon-theme 'Material-Black-Mango-Numix-FLAT'
+exec gsettings set org.gnome.desktop.interface cursor-theme 'Breeze_Amber'
+exec gsettings set org.gnome.desktop.interface font-name 'SourceCodeVF, 13'
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
