@@ -67,7 +67,7 @@ font pango:$MainFontPango
 exec --no-startup-id picom -b --config ~/.config/picom/picom.conf
 
 # feh
-exec --no-startup-id ~/Wallpapers.sh
+exec --no-startup-id ~/Scripts/Wallpapers.sh
 
 # redshift
 exec --no-startup-id redshift-gtk -l $Latitude:$Longitude
