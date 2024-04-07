@@ -25,7 +25,7 @@ yay -S --noconfirm --sudoloop --needed - < config_package_list_wayland_specific.
 
 #// Copy over user config/dot files
 section_header_with_output "Copying over config/dot files..."
-rsync -av ./files/wayland-specific/home/ $USER_HOME/
+rsync -av ./files/wayland_specific/home/ $USER_HOME/
 
 #// Output at the end
 echo ""

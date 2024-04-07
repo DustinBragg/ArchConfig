@@ -25,7 +25,7 @@ yay -S --noconfirm --sudoloop --needed - < config_package_list_x_specific.txt
 
 #// Copy over user config/dot files
 section_header_with_output "Copying over config/dot files..."
-rsync -av ./files/x-specific/home/ $USER_HOME/
+rsync -av ./files/x_specific/home/ $USER_HOME/
 
 #// Output at the end
 echo ""

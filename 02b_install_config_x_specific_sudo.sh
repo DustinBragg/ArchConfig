@@ -20,7 +20,7 @@ fi
 
 #// Copy over root files
 section_header_with_output "Copying over root files..."
-rsync -av ./files/x-specific/root/ /
+rsync -av ./files/x_specific/root/ /
 
 #// Output at the end
 echo ""
