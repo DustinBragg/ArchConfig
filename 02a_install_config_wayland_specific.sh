@@ -19,6 +19,9 @@ if [[ $EUID == 0 ]]; then
     exit 1
 fi
 
+#// Get path to user's home directory
+USER_HOME=$HOME
+
 #// Install packages from the X-specific config package list
 section_header_with_output "Installing packages..."
 yay -S --noconfirm --sudoloop --needed - < config_package_list_wayland_specific.txt
