@@ -10,7 +10,6 @@ emacs
 flac
 git
 gimp
-gimp-plugin-resynthesizer
 gtk
 libnotify
 libqalculate
