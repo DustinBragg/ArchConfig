@@ -29,15 +29,17 @@ class Dustinos(ColorScheme):
                 fg = default
             if context.media:
                 if context.image:
-                    fg = yellow
+                    fg = cyan
+                    fg += BRIGHT
                 else:
                     fg = red
+                    fg += BRIGHT
             if context.container:
                 fg = magenta
+                fg += BRIGHT
             if context.directory:
                 attr |= bold
                 fg = blue
-                fg += BRIGHT
             elif context.executable and not \
                     any((context.media, context.container,
                          context.fifo, context.socket)):
@@ -47,7 +49,6 @@ class Dustinos(ColorScheme):
             if context.socket:
                 attr |= bold
                 fg = magenta
-                fg += BRIGHT
             if context.fifo or context.device:
                 fg = yellow
                 if context.device:
@@ -90,15 +91,20 @@ class Dustinos(ColorScheme):
 
         elif context.in_titlebar:
             if context.hostname:
-                fg = red if context.bad else green
+                fg = red if context.bad else yellow
             elif context.directory:
-                fg = blue
+                attr |= dim
+                fg = white
             elif context.tab:
                 if context.good:
-                    bg = green
+                    bg = blue
+                    fg = white
+                    fg += BRIGHT
             elif context.link:
                 fg = cyan
-            attr |= bold
+            else:
+                attr |= bold
+                fg = white
 
         elif context.in_statusbar:
             if context.permissions:
