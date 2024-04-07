@@ -1,4 +1,4 @@
-shell = "fish"
+shell = "bash"
 
 [window]
 opacity = 0.96
