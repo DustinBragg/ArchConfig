@@ -4,6 +4,7 @@ i3
 i3blocks
 imgur-screenshot
 picom
+redshift
 rofi
 scrot
 ueberzug
