@@ -35,9 +35,9 @@ rsync -av ./files/generic/root/ /
 #// Special case, copy over emacs and ranger config for root user
 section_header "Copying over emacs/ranger config for root user..."
 rm -rf /root/.config/ranger
-cp -r ./files/generic/.config/ranger /root/.config
-cp -r ./files/generic/.emacs /root/
-cp -r ./files/generic/.emacs.d /root/
+cp -r ./files/generic/home/.config/ranger /root/.config
+cp -r ./files/generic/home/.emacs /root/
+cp -r ./files/generic/home/.emacs.d /root/
 
 #// Install fonts
 section_header "Installing fonts..."
