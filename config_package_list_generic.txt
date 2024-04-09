@@ -19,7 +19,6 @@ man-db
 man-pages
 neofetch
 network-manager-applet
-nomachine
 ntfs-3g
 pavucontrol
 python-gobject
