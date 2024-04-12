@@ -8,7 +8,6 @@ picom
 redshift
 rofi
 scrot
-ueberzug
 xorg-xrdb
 xclip
 xterm

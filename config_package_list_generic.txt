@@ -34,6 +34,7 @@ syncthing
 thunar
 tmux
 ttf-font-awesome
+ueberzugpp
 unrar
 unzip
 vlc

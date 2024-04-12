@@ -5,7 +5,6 @@ sway
 swaybg
 swayidle
 swaylock
-ueberzugpp
 waybar
 wl-clipboard
 wlsunset
