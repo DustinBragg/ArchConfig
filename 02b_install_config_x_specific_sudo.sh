@@ -22,6 +22,9 @@ fi
 section_header_with_output "Copying over root files..."
 rsync -av ./files/x_specific/root/ /
 
+#// Replace imgur-screenshot selection mode with 'maim'
+sed -i -e 's/scrot -s/maim -so/g' /usr/bin/imgur-screenshot
+
 #// Output at the end
 echo ""
 echo "---------------"
