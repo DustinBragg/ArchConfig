@@ -4,6 +4,7 @@ feh
 i3
 i3blocks
 imgur-screenshot
+maim
 picom
 redshift
 rofi
