@@ -12,6 +12,7 @@ flac
 git
 gimp
 gtk
+htop
 libnotify
 libqalculate
 lightdm-mini-greeter
