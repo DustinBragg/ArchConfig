@@ -15,3 +15,7 @@ exec --no-startup-id "~/.config/volumeicon/start.sh"
 
 # Primary display automation
 exec --no-startup-id ~/.config/i3/xrandr_auto.sh
+
+# light
+exec --no-startup-id light -N 2
+exec --no-startup-id "sh -c 'sleep 1; exec light -S $(light -G)'"
