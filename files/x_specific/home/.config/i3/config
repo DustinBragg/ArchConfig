@@ -188,7 +188,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws0
 
 # lock screen with i3lock
-bindsym $mod+l "i3lock -c 221102 -e"
+bindsym $mod+l exec "i3lock -c 221102 -e"
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
