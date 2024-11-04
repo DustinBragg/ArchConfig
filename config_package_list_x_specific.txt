@@ -3,6 +3,7 @@ dunst
 feh
 i3
 i3blocks
+i3lock
 imgur-screenshot
 maim
 picom
