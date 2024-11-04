@@ -25,6 +25,26 @@ sed -i 's/font-size = 1em/font-size = 1.2em/g' /etc/lightdm/lightdm-mini-greeter
 section_header_with_output "Copying over root files..."
 rsync -av ./files/rog_zeph_g14_specific/root/ /
 
+#// Install asus-linux tools
+pacman-key --recv-keys 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
+pacman-key --finger 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
+pacman-key --lsign-key 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
+pacman-key --finger 8F654886F17D497FEFE3DB448B15A6B0E9A3FA35
+
+wget "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8b15a6b0e9a3fa35" -O g14.sec
+pacman-key -a g14.sec
+
+cat ./files/rog_zeph_g14_specific/root/etc/pacman.conf.append >> /etc/pacman.conf
+
+pacman -Syu
+pacman -S asusctl power-profiles-daemon supergfxctl switcheroo-control
+
+systemctl enable --now power-profiles-daemon.service
+systemctl enable --now supergfxd
+systemctl enable --now switcheroo-control
+
+pacman -S rog-control-center
+
 #// Output at the end
 echo ""
 echo "---------------"
