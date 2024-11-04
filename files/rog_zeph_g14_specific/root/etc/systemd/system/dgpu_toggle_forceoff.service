@@ -1,0 +1,11 @@
+[Unit]
+Description=toggle vfio mode after suspend...
+After=suspend.target
+
+[Service]
+User=root
+Type=simple
+ExecStart=/usr/local/bin/dgpu_toggle_forceoff.sh
+
+[Install]
+WantedBy=suspend.target

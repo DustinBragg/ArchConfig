@@ -18,6 +18,12 @@ if [[ $EUID != 0 ]]; then
     exit 1
 fi
 
+#// Get user name
+Username=$SUDO_USER
+
+#// Add your user to 'video' group, to control 'light'
+usermod -aG video $Username
+
 #// Increase lightdm-mini-greeter font size
 sed -i 's/font-size = 1em/font-size = 1.2em/g' /etc/lightdm/lightdm-mini-greeter.conf
 
@@ -37,13 +43,20 @@ pacman-key -a g14.sec
 cat ./files/rog_zeph_g14_specific/root/etc/pacman.conf.append >> /etc/pacman.conf
 
 pacman -Syu
-pacman -S asusctl power-profiles-daemon supergfxctl switcheroo-control
+pacman -S --noconfirm --needed asusctl power-profiles-daemon supergfxctl switcheroo-control
 
 systemctl enable --now power-profiles-daemon.service
 systemctl enable --now supergfxd
 systemctl enable --now switcheroo-control
 
-pacman -S rog-control-center
+pacman -S --noconfirm --needed rog-control-center
+
+#// Fix dGPU waking on resume-from-sleep
+sed -i 's/\"vfio_enable: false\"/\"vfio_enable: true\"/g' /etc/supergfxd.conf
+systemctl enable --now dgpu_toggle_forceoff.service
+
+#// Change GRUB menu text size
+sed -i 's/gfxmode=auto/gfxmode=1280x720/g' /boot/grub/grub.cfg
 
 #// Output at the end
 echo ""
