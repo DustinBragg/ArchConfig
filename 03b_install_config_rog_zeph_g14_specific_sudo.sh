@@ -57,8 +57,8 @@ systemctl enable --now dgpu_toggle_forceoff.service
 
 #// Change GRUB menu text size
 sed -i 's/#GRUB_GFXMODE/GRUB_GFXMODE/g' /etc/default/grub
-sed -i 's/GRUB_GFXMODE=auto/GRUB_GFXMODE=1280x720/g' /etc/default/grub
-sed -i 's/gfxmode=auto/gfxmode=1280x720/g' /boot/grub/grub.cfg
+sed -i 's/GRUB_GFXMODE=auto/GRUB_GFXMODE=1280x960/g' /etc/default/grub
+sed -i 's/gfxmode=auto/gfxmode=1280x960/g' /boot/grub/grub.cfg
 
 #// Output at the end
 echo ""
