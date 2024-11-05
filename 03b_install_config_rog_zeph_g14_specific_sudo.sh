@@ -60,6 +60,9 @@ sed -i 's/#GRUB_GFXMODE/GRUB_GFXMODE/g' /etc/default/grub
 sed -i 's/GRUB_GFXMODE=auto/GRUB_GFXMODE=1280x960/g' /etc/default/grub
 sed -i 's/gfxmode=auto/gfxmode=1280x960/g' /boot/grub/grub.cfg
 
+#// Load uhid module to fix BLE mouse/keyboard issues
+echo -e  "# Fix BLE mouse issue\nuhid" | sudo tee /etc/modules-load.d/uhid.conf
+
 #// Output at the end
 echo ""
 echo "---------------"
