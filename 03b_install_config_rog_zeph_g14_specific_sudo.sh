@@ -52,7 +52,7 @@ systemctl enable --now switcheroo-control
 pacman -S --noconfirm --needed rog-control-center
 
 #// Fix dGPU waking on resume-from-sleep
-sed -i 's/\"vfio_enable: false\"/\"vfio_enable: true\"/g' /etc/supergfxd.conf
+sed -i 's/\"vfio_enable\": false/\"vfio_enable\": true/g' /etc/supergfxd.conf
 systemctl enable --now dgpu_toggle_forceoff.service
 
 #// Change GRUB menu text size
