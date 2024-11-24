@@ -34,12 +34,13 @@ defcolor_highlight_white = 0xFF003A3A;
 defcolor_paste = 0xFFFFFFFF;
 defcolor_undo = defcolor_paste;
 defcolor_back_cycle = {0xFF232323, 0xFF262626, 0xFF292929, 0xFF323232, 0xFF353535, 0xFF383838, 0xFF414141, 0xFF444444, 0xFF474747, 0xFF505050};
-defcolor_text_cycle = {0xFFA02525, 0xFF25A025, 0xFF3050F0, 0xFFA025A0};
+//defcolor_text_cycle = {0xFFA02525, 0xFF25A025, 0xFF3050F0, 0xFFA025A0};
+defcolor_text_cycle = {0x66FFEEDD, 0x99FFEEDD, 0xBBFFEEDD, 0xFFFFEEDD};
 defcolor_line_numbers_back = 0xFF202020;
 defcolor_line_numbers_text = 0xFF484848;
 
 //
-//fleury_color_syntax_crap           = 0xCCA88E70;
+fleury_color_syntax_crap           = 0xAAA88E70;
 //fleury_color_operators             = 0xFFbd2d2d;
 fleury_color_inactive_pane_overlay = 0x33000000;
 //fleury_color_inactive_pane_background = 0xff000000;
