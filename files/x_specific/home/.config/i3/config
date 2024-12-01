@@ -102,8 +102,13 @@ bindsym $mod+Shift+q kill
 # start a calculator
 bindsym $mod+c exec --no-startup-id $Terminal -e "qalc"
 
-# take an imgur screenshot
+# take an imgur screenshot (one will include the i3bar)
 bindsym Ctrl+Shift+4 exec --no-startup-id imgur-screenshot -n -k false -o false -s
+bindsym $mod+Shift+g exec --no-startup-id imgur-screenshot -n -k false -o false -s
+
+# take a fullscreen imgur screenshot (one will include the i3bar)
+bindsym Ctrl+Shift+3 exec --no-startup-id imgur-screenshot -n -k false -o false -f
+bindsym $mod+Shift+f exec --no-startup-id imgur-screenshot -n -k false -o false -f
 
 # start rofi to run programs
 bindsym $mod+d exec --no-startup-id rofi -show run -display-run ""
