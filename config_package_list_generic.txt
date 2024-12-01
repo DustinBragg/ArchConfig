@@ -22,6 +22,7 @@ man-pages
 neofetch
 network-manager-applet
 ntfs-3g
+pacman-contrib
 pavucontrol
 python-gobject
 python-xdg
