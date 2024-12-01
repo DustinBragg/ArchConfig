@@ -1,4 +1,4 @@
-7-zip-full
+7-zip
 abcde
 abcde-musicbrainz-meta
 acpi
