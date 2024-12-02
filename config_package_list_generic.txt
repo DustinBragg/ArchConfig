@@ -13,6 +13,7 @@ flac
 git
 gimp
 gtk
+gvfs
 htop
 libnotify
 libqalculate
