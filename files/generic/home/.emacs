@@ -7,5 +7,6 @@
 (scroll-bar-mode -1)
 
 (global-set-key (kbd "C-e") 'recenter-top-bottom)
+(global-set-key (kbd "C-\\") 'other-window)
 
 (setq inhibit-startup-message t)
