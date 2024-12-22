@@ -14,5 +14,5 @@ alias grep='grep --color=auto'
 
 . "${HOME}/Scripts/Aliases.sh"
 
-PS1='\e[93m\u@\h \e[97m(\e[37m\W\e[97m) - \e[39m'
+PS1='\[\033[93m\]\u@\h \[\033[97m\](\[\033[37m\]\W\[\033[97m\]) - \[\033[39m\]\[\033[0m\]'
 
