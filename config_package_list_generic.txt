@@ -9,7 +9,6 @@ bash-completion
 bc
 brave-bin
 cifs-utils
-cloc
 emacs
 flac
 git
@@ -39,6 +38,7 @@ smbclient
 syncthing
 thunar
 tmux
+tokei
 ttf-font-awesome
 ueberzug
 unrar
