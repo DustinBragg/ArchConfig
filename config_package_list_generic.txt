@@ -6,6 +6,7 @@ adobe-source-code-pro-fonts
 alacritty
 alsa-utils
 bash-completion
+bc
 brave-bin
 cifs-utils
 emacs
