@@ -23,6 +23,9 @@ man-db
 man-pages
 neofetch
 network-manager-applet
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji 
 ntfs-3g
 pacman-contrib
 pavucontrol
@@ -39,7 +42,9 @@ syncthing
 thunar
 tmux
 tokei
+ttf-dejavu
 ttf-font-awesome
+ttf-liberation
 ueberzug
 unrar
 unzip
