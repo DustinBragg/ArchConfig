@@ -29,7 +29,7 @@ enable_undo_fade_out = true;
 // the cursor and mark's roundness as a percentage of their width
 // (At 50 the left and right corners will be so round they form a semi-circle,
 //  hence 50 is the max)
-cursor_roundness = 45;
+cursor_roundness = 10;
 
 // mark_thickness is a pixel count value setting the
 // thickness of the mark wire box in original mode
@@ -40,7 +40,7 @@ mark_thickness = 2;
 lister_roundness = 20;
 
 // Code Wrapping
-treat_as_code = ".cpp.c.hpp.h.cc.cs.java.rs.glsl.m.mm.ds.md.4coder.jai.vert.frag.html.css";
+treat_as_code = ".cpp.c.hpp.h.cc.cs.java.rs.glsl.m.mm.ds.md.4coder.jai.vert.frag.html.css.db";
 enable_virtual_whitespace = true;
 virtual_whitespace_regular_indent = 4;
 enable_code_wrapping = true;
@@ -62,10 +62,11 @@ default_tab_width = 4;
 
 // Theme
 default_theme_name = "theme-dustinos";
+//highlight_line_at_cursor = true;
 
 // Font
 default_font_name = "TwilioSansMono-Semibold.ttf";
-default_font_size = 16;
+default_font_size = 15;
 default_font_hinting = true;
 
 // aa modes:
@@ -85,3 +86,14 @@ default_flags_bat = "-FC -GR- -EHa- -nologo -Zi";
 default_compiler_sh = "g++";
 default_flags_sh  = "-g";
 
+// NOTE(rjf): Fleury 4coder Disabling Options
+// f4_disable_brace_highlight = true;
+// f4_disable_close_brace_annotation = true;
+// f4_disable_brace_lines = true;
+// f4_disable_progress_bar = true;
+// f4_disable_divider_comments = true;
+// f4_disable_error_annotations = true;
+// f4_disable_calc_comments = true;
+// f4_poscontext_draw_at_bottom_of_buffer = true;
+// f4_disable_poscontext = true;
+// f4_disable_cursor_token_occurance = true;
