@@ -43,470 +43,366 @@ lexeme_table_lookup(u64 *hash_array, String_Const_u8 *key_array,
 }
 
 #endif
-u64 cpp_main_keys_hash_array[126] = {
-0xc821acd0c8fb73a9,0x0000000000000000,0x6a4e82569b6fd1a9,0x4489e44efb16c899,
-0xc821acd0c8fb732d,0x0000000000000000,0x0000000000000000,0x31d4affdd8ee4a23,
-0x0000000000000000,0xf834bc29c527472b,0xc6874a2cd49e453d,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0xc821d5a03366b991,0x0000000000000000,
-0xc6874a2c3f2f19d9,0xf834bc29c5246569,0x0000000000000000,0x288d01339fed89a5,
-0x0000000000000000,0x0000000000000000,0x4489e44404c35ccb,0x0000000000000000,
-0x4489e44552d1d3b3,0x0000000000000000,0x4489e44468aae1e3,0x0000000000000000,
-0xc6874a2cc7c092bb,0xc821d039f306e537,0x4489e445529a247f,0x0000000000000000,
-0xc6874a2cd7ac11ff,0x0d334ffe4b8c27db,0x336c054785f97503,0x4489e445529dc34d,
-0x0000000000000000,0x0000000000000000,0x0d334ffe4b22c98b,0x0b524e8654311f23,
-0x288d21a7c0bb77ed,0x0000000000000000,0x0000000000000000,0xc6874a2cc2daf06b,
-0x0000000000000000,0x0000000000000000,0x4489e4447f9b9b33,0x0000000000000000,
-0xc6874a2c39771ae9,0x0000000000000000,0x2882f5b049f3dcbb,0x0000000000000000,
-0xf834bc29c5273ff5,0x9c9859cd2d2b5a23,0x0d334ffe4b8c096b,0x0000000000000000,
-0x0d334ffe4be66e9d,0xc821d0165884aca5,0x4489e4a486ac56f3,0x2882d4d41187e343,
-0xc821a3be25973775,0x0000000000000000,0x3049f262c780cf13,0x2880fd6b1d3bca85,
-0x288d0782ca92232b,0x0000000000000000,0x288a425973e9c06d,0x4489e4a033db12b9,
-0xf443a2dc2ede9963,0x0000000000000000,0xc6874a2cc14bc19b,0x0000000000000000,
-0x4489e4a48619ffa9,0x0000000000000000,0x0000000000000000,0xc6874a2c399abc3b,
-0x0d334ffe4bf0872b,0x4489e4ab3bdcb179,0x5b264c2cf7246123,0x0d334ffe4b0bb57b,
-0x0000000000000000,0x0d334ffe4b9d78af,0x0000000000000000,0x0d334ffe4b31026d,
-0x0000000000000000,0x0000000000000000,0xc6874a2cd780c81d,0x288a69db4cbb1875,
-0x4489e4a01b9442a5,0x288cda1db211cc55,0x0000000000000000,0x0000000000000000,
-0xc8218147ebbcfb63,0x0000000000000000,0x0000000000000000,0x4489e44ea8be23fd,
-0xb99e437780775d23,0x0000000000000000,0xf834bc29c524d089,0x0000000000000000,
-0x0000000000000000,0x2880f2ce306c63fd,0xf443a2dc2ede9b01,0x0000000000000000,
-0x0000000000000000,0xf834bc29c524bc61,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x4489e44468b70661,0x0000000000000000,
-0x0000000000000000,0x0d334ffe4be44813,0xc6874a2c3f4f67f5,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x288cd220caf2b5e3,0x0d334ffe4b2b9423,
-0x0000000000000000,0xc6874a2cc1464fed,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,
+u64 jai_main_keys_hash_array[89] = {
+0xac8da306275a3d43,0x665a25aa3b756401,0x0000000000000000,0x0000000000000000,
+0xb1e237e936c3447d,0xb1e237e936fa66fd,0x0000000000000000,0xb1e237e935117d87,
+0xac8da306275d1653,0x975f946c0976900b,0x0000000000000000,0x0000000000000000,
+0x665ad32687d670fb,0x0000000000000000,0xb87f5d1e1491cffb,0x0000000000000000,
+0x0000000000000000,0xac8da306275de2c9,0x0000000000000000,0x975f946c09769443,
+0xac8da306275dfe43,0xac8da30627581ad5,0xe60fd2aaa2d8fea5,0x0000000000000000,
+0x975f946c0976901b,0xd6e62de8686a297b,0xe60fd2aa0eefd08f,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x0000000000000000,0x975f946c09769559,
+0x0000000000000000,0x89e0a030f49fb443,0xac8da306275a56c5,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x89e361d6d477dc99,0x0000000000000000,
+0x0000000000000000,0xb1e237e936ccaf47,0xb87f5d1e91f824d1,0xe60fd2aa03f48729,
+0xe60fd2aa0c43a4cd,0x0000000000000000,0x0000000000000000,0x975f946c097691ef,
+0xac8da306275ab1eb,0xb1e237e936fa66cf,0x0000000000000000,0xe60fd2aaa969843f,
+0xac8da306275de345,0x89e3641bfff00935,0xb1e237e9350ff699,0x665ad3fbd4976631,
+0x0000000000000000,0xb87f5d7ca9937091,0x665ad3517fc73f73,0xac8da306275dfe69,
+0x0000000000000000,0x665ad3416b60807b,0x0000000000000000,0xe60fd2aa9f8815d7,
+0xb1e237e936ec2a63,0xb1e237e936cc5ca1,0x0000000000000000,0x0000000000000000,
+0x0000000000000000,0xb87f5d1e90910b39,0xac8da306275dfe75,0xac8da306275985a1,
+0xb87f5d7d250cd24d,0x0000000000000000,0x0000000000000000,0xb1e237e936f1e2c3,
+0x0000000000000000,0x0000000000000000,0x975f946c0976952f,0x0000000000000000,
+0x0000000000000000,0x665ad3517fc73b05,0x0000000000000000,0x0000000000000000,
+0xb87f5d1e139deaef,0x0000000000000000,0xb87f5d1e1237098f,0xe60fd2aa9f34bb7d,
+0x0000000000000000,
 };
-u8 cpp_main_keys_key_array_0[] = {0x61,0x6c,0x69,0x67,0x6e,0x6f,0x66,};
-u8 cpp_main_keys_key_array_2[] = {0x73,0x74,0x61,0x74,0x69,0x63,0x5f,0x61,0x73,0x73,0x65,0x72,0x74,};
-u8 cpp_main_keys_key_array_3[] = {0x69,0x6e,0x6c,0x69,0x6e,0x65,};
-u8 cpp_main_keys_key_array_4[] = {0x61,0x6c,0x69,0x67,0x6e,0x61,0x73,};
-u8 cpp_main_keys_key_array_7[] = {0x6e,0x61,0x6d,0x65,0x73,0x70,0x61,0x63,0x65,};
-u8 cpp_main_keys_key_array_9[] = {0x61,0x73,0x6d,};
-u8 cpp_main_keys_key_array_10[] = {0x62,0x72,0x65,0x61,0x6b,};
-u8 cpp_main_keys_key_array_14[] = {0x74,0x79,0x70,0x65,0x64,0x65,0x66,};
-u8 cpp_main_keys_key_array_16[] = {0x75,0x6e,0x69,0x6f,0x6e,};
-u8 cpp_main_keys_key_array_17[] = {0x74,0x72,0x79,};
-u8 cpp_main_keys_key_array_19[] = {0x74,0x65,0x6d,0x70,0x6c,0x61,0x74,0x65,};
-u8 cpp_main_keys_key_array_22[] = {0x74,0x79,0x70,0x65,0x69,0x64,};
-u8 cpp_main_keys_key_array_24[] = {0x73,0x74,0x72,0x75,0x63,0x74,};
-u8 cpp_main_keys_key_array_26[] = {0x73,0x69,0x67,0x6e,0x65,0x64,};
-u8 cpp_main_keys_key_array_28[] = {0x66,0x6c,0x6f,0x61,0x74,};
-u8 cpp_main_keys_key_array_29[] = {0x6e,0x75,0x6c,0x6c,0x70,0x74,0x72,};
-u8 cpp_main_keys_key_array_30[] = {0x73,0x77,0x69,0x74,0x63,0x68,};
-u8 cpp_main_keys_key_array_32[] = {0x63,0x61,0x74,0x63,0x68,};
-u8 cpp_main_keys_key_array_33[] = {0x65,0x6e,0x75,0x6d,};
-u8 cpp_main_keys_key_array_34[] = {0x74,0x68,0x72,0x65,0x61,0x64,0x5f,0x6c,0x6f,0x63,0x61,0x6c,};
-u8 cpp_main_keys_key_array_35[] = {0x73,0x74,0x61,0x74,0x69,0x63,};
-u8 cpp_main_keys_key_array_38[] = {0x76,0x6f,0x69,0x64,};
-u8 cpp_main_keys_key_array_39[] = {0x64,0x79,0x6e,0x61,0x6d,0x69,0x63,0x5f,0x63,0x61,0x73,0x74,};
-u8 cpp_main_keys_key_array_40[] = {0x72,0x65,0x67,0x69,0x73,0x74,0x65,0x72,};
-u8 cpp_main_keys_key_array_43[] = {0x66,0x61,0x6c,0x73,0x65,};
-u8 cpp_main_keys_key_array_46[] = {0x72,0x65,0x74,0x75,0x72,0x6e,};
-u8 cpp_main_keys_key_array_48[] = {0x73,0x68,0x6f,0x72,0x74,};
-u8 cpp_main_keys_key_array_50[] = {0x65,0x78,0x70,0x6c,0x69,0x63,0x69,0x74,};
-u8 cpp_main_keys_key_array_52[] = {0x66,0x6f,0x72,};
-u8 cpp_main_keys_key_array_53[] = {0x73,0x74,0x61,0x74,0x69,0x63,0x5f,0x63,0x61,0x73,0x74,};
-u8 cpp_main_keys_key_array_54[] = {0x65,0x6c,0x73,0x65,};
-u8 cpp_main_keys_key_array_56[] = {0x63,0x68,0x61,0x72,};
-u8 cpp_main_keys_key_array_57[] = {0x70,0x72,0x69,0x76,0x61,0x74,0x65,};
-u8 cpp_main_keys_key_array_58[] = {0x65,0x78,0x74,0x65,0x72,0x6e,};
-u8 cpp_main_keys_key_array_59[] = {0x63,0x6f,0x6e,0x74,0x69,0x6e,0x75,0x65,};
-u8 cpp_main_keys_key_array_60[] = {0x64,0x65,0x66,0x61,0x75,0x6c,0x74,};
-u8 cpp_main_keys_key_array_62[] = {0x70,0x72,0x6f,0x74,0x65,0x63,0x74,0x65,0x64,};
-u8 cpp_main_keys_key_array_63[] = {0x62,0x69,0x74,0x66,0x69,0x65,0x6c,0x64,};
-u8 cpp_main_keys_key_array_64[] = {0x74,0x79,0x70,0x65,0x6e,0x61,0x6d,0x65,};
-u8 cpp_main_keys_key_array_66[] = {0x6e,0x6f,0x65,0x78,0x63,0x65,0x70,0x74,};
-u8 cpp_main_keys_key_array_67[] = {0x64,0x6f,0x75,0x62,0x6c,0x65,};
-u8 cpp_main_keys_key_array_68[] = {0x64,0x6f,};
-u8 cpp_main_keys_key_array_70[] = {0x63,0x6f,0x6e,0x73,0x74,};
-u8 cpp_main_keys_key_array_72[] = {0x65,0x78,0x70,0x6f,0x72,0x74,};
-u8 cpp_main_keys_key_array_75[] = {0x75,0x73,0x69,0x6e,0x67,};
-u8 cpp_main_keys_key_array_76[] = {0x62,0x6f,0x6f,0x6c,};
-u8 cpp_main_keys_key_array_77[] = {0x66,0x72,0x69,0x65,0x6e,0x64,};
-u8 cpp_main_keys_key_array_78[] = {0x63,0x6f,0x6e,0x73,0x74,0x5f,0x63,0x61,0x73,0x74,};
-u8 cpp_main_keys_key_array_79[] = {0x6c,0x6f,0x6e,0x67,};
-u8 cpp_main_keys_key_array_81[] = {0x67,0x6f,0x74,0x6f,};
-u8 cpp_main_keys_key_array_83[] = {0x74,0x68,0x69,0x73,};
-u8 cpp_main_keys_key_array_86[] = {0x64,0x65,0x66,0x65,0x72,};
-u8 cpp_main_keys_key_array_87[] = {0x76,0x6f,0x6c,0x61,0x74,0x69,0x6c,0x65,};
-u8 cpp_main_keys_key_array_88[] = {0x64,0x65,0x6c,0x65,0x74,0x65,};
-u8 cpp_main_keys_key_array_89[] = {0x6f,0x70,0x65,0x72,0x61,0x74,0x6f,0x72,};
-u8 cpp_main_keys_key_array_92[] = {0x76,0x69,0x72,0x74,0x75,0x61,0x6c,};
-u8 cpp_main_keys_key_array_95[] = {0x70,0x75,0x62,0x6c,0x69,0x63,};
-u8 cpp_main_keys_key_array_96[] = {0x72,0x65,0x69,0x6e,0x74,0x65,0x72,0x70,0x72,0x65,0x74,0x5f,0x63,0x61,0x73,0x74,};
-u8 cpp_main_keys_key_array_98[] = {0x69,0x6e,0x74,};
-u8 cpp_main_keys_key_array_101[] = {0x64,0x65,0x63,0x6c,0x74,0x79,0x70,0x65,};
-u8 cpp_main_keys_key_array_102[] = {0x69,0x66,};
-u8 cpp_main_keys_key_array_105[] = {0x6e,0x65,0x77,};
-u8 cpp_main_keys_key_array_110[] = {0x73,0x69,0x7a,0x65,0x6f,0x66,};
-u8 cpp_main_keys_key_array_113[] = {0x63,0x61,0x73,0x65,};
-u8 cpp_main_keys_key_array_114[] = {0x77,0x68,0x69,0x6c,0x65,};
-u8 cpp_main_keys_key_array_118[] = {0x75,0x6e,0x73,0x69,0x67,0x6e,0x65,0x64,};
-u8 cpp_main_keys_key_array_119[] = {0x74,0x72,0x75,0x65,};
-u8 cpp_main_keys_key_array_121[] = {0x63,0x6c,0x61,0x73,0x73,};
-String_Const_u8 cpp_main_keys_key_array[126] = {
-{cpp_main_keys_key_array_0, 7},
-{0, 0},
-{cpp_main_keys_key_array_2, 13},
-{cpp_main_keys_key_array_3, 6},
-{cpp_main_keys_key_array_4, 7},
+u8 jai_main_keys_key_array_0[] = {0x69,0x6e,0x74,};
+u8 jai_main_keys_key_array_1[] = {0x73,0x69,0x7a,0x65,0x5f,0x6f,0x66,};
+u8 jai_main_keys_key_array_4[] = {0x65,0x6c,0x73,0x65,};
+u8 jai_main_keys_key_array_5[] = {0x63,0x61,0x73,0x65,};
+u8 jai_main_keys_key_array_7[] = {0x76,0x6f,0x69,0x64,};
+u8 jai_main_keys_key_array_8[] = {0x75,0x36,0x34,};
+u8 jai_main_keys_key_array_9[] = {0x73,0x38,};
+u8 jai_main_keys_key_array_12[] = {0x64,0x65,0x66,0x61,0x75,0x6c,0x74,};
+u8 jai_main_keys_key_array_14[] = {0x73,0x77,0x69,0x74,0x63,0x68,};
+u8 jai_main_keys_key_array_17[] = {0x75,0x31,0x36,};
+u8 jai_main_keys_key_array_19[] = {0x64,0x6f,};
+u8 jai_main_keys_key_array_20[] = {0x73,0x36,0x34,};
+u8 jai_main_keys_key_array_21[] = {0x41,0x6e,0x79,};
+u8 jai_main_keys_key_array_22[] = {0x64,0x65,0x66,0x65,0x72,};
+u8 jai_main_keys_key_array_24[] = {0x75,0x38,};
+u8 jai_main_keys_key_array_25[] = {0x70,0x75,0x73,0x68,0x5f,0x63,0x6f,0x6e,0x74,0x65,0x78,0x74,};
+u8 jai_main_keys_key_array_26[] = {0x75,0x73,0x69,0x6e,0x67,};
+u8 jai_main_keys_key_array_31[] = {0x69,0x66,};
+u8 jai_main_keys_key_array_33[] = {0x69,0x74,0x5f,0x69,0x6e,0x64,0x65,0x78,};
+u8 jai_main_keys_key_array_34[] = {0x66,0x6f,0x72,};
+u8 jai_main_keys_key_array_38[] = {0x63,0x6f,0x6e,0x74,0x69,0x6e,0x75,0x65,};
+u8 jai_main_keys_key_array_41[] = {0x62,0x6f,0x6f,0x6c,};
+u8 jai_main_keys_key_array_42[] = {0x72,0x65,0x6d,0x6f,0x76,0x65,};
+u8 jai_main_keys_key_array_43[] = {0x75,0x6e,0x69,0x6f,0x6e,};
+u8 jai_main_keys_key_array_44[] = {0x77,0x68,0x69,0x6c,0x65,};
+u8 jai_main_keys_key_array_47[] = {0x78,0x78,};
+u8 jai_main_keys_key_array_48[] = {0x6e,0x65,0x77,};
+u8 jai_main_keys_key_array_49[] = {0x63,0x61,0x73,0x74,};
+u8 jai_main_keys_key_array_51[] = {0x62,0x72,0x65,0x61,0x6b,};
+u8 jai_main_keys_key_array_52[] = {0x75,0x33,0x32,};
+u8 jai_main_keys_key_array_53[] = {0x6f,0x70,0x65,0x72,0x61,0x74,0x6f,0x72,};
+u8 jai_main_keys_key_array_54[] = {0x74,0x72,0x75,0x65,};
+u8 jai_main_keys_key_array_55[] = {0x61,0x6c,0x69,0x67,0x6e,0x6f,0x66,};
+u8 jai_main_keys_key_array_57[] = {0x69,0x6e,0x6c,0x69,0x6e,0x65,};
+u8 jai_main_keys_key_array_58[] = {0x66,0x6c,0x6f,0x61,0x74,0x36,0x34,};
+u8 jai_main_keys_key_array_59[] = {0x73,0x31,0x36,};
+u8 jai_main_keys_key_array_61[] = {0x63,0x6f,0x6e,0x74,0x65,0x78,0x74,};
+u8 jai_main_keys_key_array_63[] = {0x66,0x6c,0x6f,0x61,0x74,};
+u8 jai_main_keys_key_array_64[] = {0x6e,0x75,0x6c,0x6c,};
+u8 jai_main_keys_key_array_65[] = {0x65,0x6e,0x75,0x6d,};
+u8 jai_main_keys_key_array_69[] = {0x72,0x65,0x74,0x75,0x72,0x6e,};
+u8 jai_main_keys_key_array_70[] = {0x73,0x33,0x32,};
+u8 jai_main_keys_key_array_71[] = {0x2d,0x2d,0x2d,};
+u8 jai_main_keys_key_array_72[] = {0x64,0x65,0x6c,0x65,0x74,0x65,};
+u8 jai_main_keys_key_array_75[] = {0x67,0x6f,0x74,0x6f,};
+u8 jai_main_keys_key_array_78[] = {0x69,0x74,};
+u8 jai_main_keys_key_array_81[] = {0x66,0x6c,0x6f,0x61,0x74,0x33,0x32,};
+u8 jai_main_keys_key_array_84[] = {0x73,0x74,0x72,0x69,0x6e,0x67,};
+u8 jai_main_keys_key_array_86[] = {0x73,0x74,0x72,0x75,0x63,0x74,};
+u8 jai_main_keys_key_array_87[] = {0x66,0x61,0x6c,0x73,0x65,};
+String_Const_u8 jai_main_keys_key_array[89] = {
+{jai_main_keys_key_array_0, 3},
+{jai_main_keys_key_array_1, 7},
 {0, 0},
 {0, 0},
-{cpp_main_keys_key_array_7, 9},
+{jai_main_keys_key_array_4, 4},
+{jai_main_keys_key_array_5, 4},
 {0, 0},
-{cpp_main_keys_key_array_9, 3},
-{cpp_main_keys_key_array_10, 5},
-{0, 0},
-{0, 0},
-{0, 0},
-{cpp_main_keys_key_array_14, 7},
-{0, 0},
-{cpp_main_keys_key_array_16, 5},
-{cpp_main_keys_key_array_17, 3},
-{0, 0},
-{cpp_main_keys_key_array_19, 8},
+{jai_main_keys_key_array_7, 4},
+{jai_main_keys_key_array_8, 3},
+{jai_main_keys_key_array_9, 2},
 {0, 0},
 {0, 0},
-{cpp_main_keys_key_array_22, 6},
+{jai_main_keys_key_array_12, 7},
 {0, 0},
-{cpp_main_keys_key_array_24, 6},
-{0, 0},
-{cpp_main_keys_key_array_26, 6},
-{0, 0},
-{cpp_main_keys_key_array_28, 5},
-{cpp_main_keys_key_array_29, 7},
-{cpp_main_keys_key_array_30, 6},
-{0, 0},
-{cpp_main_keys_key_array_32, 5},
-{cpp_main_keys_key_array_33, 4},
-{cpp_main_keys_key_array_34, 12},
-{cpp_main_keys_key_array_35, 6},
+{jai_main_keys_key_array_14, 6},
 {0, 0},
 {0, 0},
-{cpp_main_keys_key_array_38, 4},
-{cpp_main_keys_key_array_39, 12},
-{cpp_main_keys_key_array_40, 8},
+{jai_main_keys_key_array_17, 3},
 {0, 0},
+{jai_main_keys_key_array_19, 2},
+{jai_main_keys_key_array_20, 3},
+{jai_main_keys_key_array_21, 3},
+{jai_main_keys_key_array_22, 5},
 {0, 0},
-{cpp_main_keys_key_array_43, 5},
-{0, 0},
-{0, 0},
-{cpp_main_keys_key_array_46, 6},
-{0, 0},
-{cpp_main_keys_key_array_48, 5},
-{0, 0},
-{cpp_main_keys_key_array_50, 8},
-{0, 0},
-{cpp_main_keys_key_array_52, 3},
-{cpp_main_keys_key_array_53, 11},
-{cpp_main_keys_key_array_54, 4},
-{0, 0},
-{cpp_main_keys_key_array_56, 4},
-{cpp_main_keys_key_array_57, 7},
-{cpp_main_keys_key_array_58, 6},
-{cpp_main_keys_key_array_59, 8},
-{cpp_main_keys_key_array_60, 7},
-{0, 0},
-{cpp_main_keys_key_array_62, 9},
-{cpp_main_keys_key_array_63, 8},
-{cpp_main_keys_key_array_64, 8},
-{0, 0},
-{cpp_main_keys_key_array_66, 8},
-{cpp_main_keys_key_array_67, 6},
-{cpp_main_keys_key_array_68, 2},
-{0, 0},
-{cpp_main_keys_key_array_70, 5},
-{0, 0},
-{cpp_main_keys_key_array_72, 6},
-{0, 0},
-{0, 0},
-{cpp_main_keys_key_array_75, 5},
-{cpp_main_keys_key_array_76, 4},
-{cpp_main_keys_key_array_77, 6},
-{cpp_main_keys_key_array_78, 10},
-{cpp_main_keys_key_array_79, 4},
-{0, 0},
-{cpp_main_keys_key_array_81, 4},
-{0, 0},
-{cpp_main_keys_key_array_83, 4},
-{0, 0},
-{0, 0},
-{cpp_main_keys_key_array_86, 5},
-{cpp_main_keys_key_array_87, 8},
-{cpp_main_keys_key_array_88, 6},
-{cpp_main_keys_key_array_89, 8},
-{0, 0},
-{0, 0},
-{cpp_main_keys_key_array_92, 7},
-{0, 0},
-{0, 0},
-{cpp_main_keys_key_array_95, 6},
-{cpp_main_keys_key_array_96, 16},
-{0, 0},
-{cpp_main_keys_key_array_98, 3},
-{0, 0},
-{0, 0},
-{cpp_main_keys_key_array_101, 8},
-{cpp_main_keys_key_array_102, 2},
-{0, 0},
-{0, 0},
-{cpp_main_keys_key_array_105, 3},
+{jai_main_keys_key_array_24, 2},
+{jai_main_keys_key_array_25, 12},
+{jai_main_keys_key_array_26, 5},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
-{cpp_main_keys_key_array_110, 6},
+{jai_main_keys_key_array_31, 2},
 {0, 0},
-{0, 0},
-{cpp_main_keys_key_array_113, 4},
-{cpp_main_keys_key_array_114, 5},
-{0, 0},
-{0, 0},
-{0, 0},
-{cpp_main_keys_key_array_118, 8},
-{cpp_main_keys_key_array_119, 4},
-{0, 0},
-{cpp_main_keys_key_array_121, 5},
+{jai_main_keys_key_array_33, 8},
+{jai_main_keys_key_array_34, 3},
 {0, 0},
 {0, 0},
 {0, 0},
+{jai_main_keys_key_array_38, 8},
+{0, 0},
+{0, 0},
+{jai_main_keys_key_array_41, 4},
+{jai_main_keys_key_array_42, 6},
+{jai_main_keys_key_array_43, 5},
+{jai_main_keys_key_array_44, 5},
+{0, 0},
+{0, 0},
+{jai_main_keys_key_array_47, 2},
+{jai_main_keys_key_array_48, 3},
+{jai_main_keys_key_array_49, 4},
+{0, 0},
+{jai_main_keys_key_array_51, 5},
+{jai_main_keys_key_array_52, 3},
+{jai_main_keys_key_array_53, 8},
+{jai_main_keys_key_array_54, 4},
+{jai_main_keys_key_array_55, 7},
+{0, 0},
+{jai_main_keys_key_array_57, 6},
+{jai_main_keys_key_array_58, 7},
+{jai_main_keys_key_array_59, 3},
+{0, 0},
+{jai_main_keys_key_array_61, 7},
+{0, 0},
+{jai_main_keys_key_array_63, 5},
+{jai_main_keys_key_array_64, 4},
+{jai_main_keys_key_array_65, 4},
+{0, 0},
+{0, 0},
+{0, 0},
+{jai_main_keys_key_array_69, 6},
+{jai_main_keys_key_array_70, 3},
+{jai_main_keys_key_array_71, 3},
+{jai_main_keys_key_array_72, 6},
+{0, 0},
+{0, 0},
+{jai_main_keys_key_array_75, 4},
+{0, 0},
+{0, 0},
+{jai_main_keys_key_array_78, 2},
+{0, 0},
+{0, 0},
+{jai_main_keys_key_array_81, 7},
+{0, 0},
+{0, 0},
+{jai_main_keys_key_array_84, 6},
+{0, 0},
+{jai_main_keys_key_array_86, 6},
+{jai_main_keys_key_array_87, 5},
 {0, 0},
 };
-Lexeme_Table_Value cpp_main_keys_value_array[126] = {
-{4, TokenCppKind_AlignOf},
-{0, 0},
-{4, TokenCppKind_StaticAssert},
-{4, TokenCppKind_Inline},
-{4, TokenCppKind_AlignAs},
+Lexeme_Table_Value jai_main_keys_value_array[89] = {
+{4, TokenJaiKind_Int},
+{4, TokenJaiKind_SizeOf},
 {0, 0},
 {0, 0},
-{4, TokenCppKind_Namespace},
+{4, TokenJaiKind_Else},
+{4, TokenJaiKind_Case},
 {0, 0},
-{4, TokenCppKind_Asm},
-{4, TokenCppKind_Break},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenCppKind_Typedef},
-{0, 0},
-{4, TokenCppKind_Union},
-{4, TokenCppKind_Try},
-{0, 0},
-{4, TokenCppKind_Template},
+{4, TokenJaiKind_Void},
+{4, TokenJaiKind_U64},
+{4, TokenJaiKind_S8},
 {0, 0},
 {0, 0},
-{4, TokenCppKind_TypeID},
+{4, TokenJaiKind_Default},
 {0, 0},
-{4, TokenCppKind_Struct},
-{0, 0},
-{4, TokenCppKind_Signed},
-{0, 0},
-{4, TokenCppKind_Float},
-{4, TokenCppKind_NullPtr},
-{4, TokenCppKind_Switch},
-{0, 0},
-{4, TokenCppKind_Catch},
-{4, TokenCppKind_Enum},
-{4, TokenCppKind_ThreadLocal},
-{4, TokenCppKind_Static},
+{4, TokenJaiKind_Switch},
 {0, 0},
 {0, 0},
-{4, TokenCppKind_Void},
-{4, TokenCppKind_DynamicCast},
-{4, TokenCppKind_Register},
+{4, TokenJaiKind_U16},
 {0, 0},
+{4, TokenJaiKind_Do},
+{4, TokenJaiKind_S64},
+{4, TokenJaiKind_Any},
+{4, TokenJaiKind_Defer},
 {0, 0},
-{8, TokenCppKind_LiteralFalse},
-{0, 0},
-{0, 0},
-{4, TokenCppKind_Return},
-{0, 0},
-{4, TokenCppKind_Short},
-{0, 0},
-{4, TokenCppKind_Explicit},
-{0, 0},
-{4, TokenCppKind_For},
-{4, TokenCppKind_StaticCast},
-{4, TokenCppKind_Else},
-{0, 0},
-{4, TokenCppKind_Char},
-{4, TokenCppKind_Private},
-{4, TokenCppKind_Extern},
-{4, TokenCppKind_Continue},
-{4, TokenCppKind_Default},
-{0, 0},
-{4, TokenCppKind_Protected},
-{4, TokenCppKind_bitfield},
-{4, TokenCppKind_Typename},
-{0, 0},
-{4, TokenCppKind_NoExcept},
-{4, TokenCppKind_Double},
-{4, TokenCppKind_Do},
-{0, 0},
-{4, TokenCppKind_Const},
-{0, 0},
-{4, TokenCppKind_Export},
-{0, 0},
-{0, 0},
-{4, TokenCppKind_Using},
-{4, TokenCppKind_Bool},
-{4, TokenCppKind_Friend},
-{4, TokenCppKind_ConstCast},
-{4, TokenCppKind_Long},
-{0, 0},
-{4, TokenCppKind_Goto},
-{0, 0},
-{4, TokenCppKind_This},
-{0, 0},
-{0, 0},
-{4, TokenCppKind_defer},
-{4, TokenCppKind_Volatile},
-{4, TokenCppKind_Delete},
-{4, TokenCppKind_Operator},
-{0, 0},
-{0, 0},
-{4, TokenCppKind_Virtual},
-{0, 0},
-{0, 0},
-{4, TokenCppKind_Public},
-{4, TokenCppKind_ReinterpretCast},
-{0, 0},
-{4, TokenCppKind_Int},
-{0, 0},
-{0, 0},
-{4, TokenCppKind_DeclType},
-{4, TokenCppKind_If},
-{0, 0},
-{0, 0},
-{4, TokenCppKind_New},
+{4, TokenJaiKind_U8},
+{4, TokenJaiKind_PushContext},
+{4, TokenJaiKind_Using},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
-{4, TokenCppKind_SizeOf},
+{4, TokenJaiKind_If},
 {0, 0},
-{0, 0},
-{4, TokenCppKind_Case},
-{4, TokenCppKind_While},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenCppKind_Unsigned},
-{8, TokenCppKind_LiteralTrue},
-{0, 0},
-{4, TokenCppKind_Class},
+{4, TokenJaiKind_ItIndex},
+{4, TokenJaiKind_For},
 {0, 0},
 {0, 0},
 {0, 0},
+{4, TokenJaiKind_Continue},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_Bool},
+{4, TokenJaiKind_Remove},
+{4, TokenJaiKind_Union},
+{4, TokenJaiKind_While},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_Autocast},
+{4, TokenJaiKind_New},
+{4, TokenJaiKind_Cast},
+{0, 0},
+{4, TokenJaiKind_Break},
+{4, TokenJaiKind_U32},
+{4, TokenJaiKind_Operator},
+{8, TokenJaiKind_LiteralTrue},
+{4, TokenJaiKind_AlignOf},
+{0, 0},
+{4, TokenJaiKind_Inline},
+{4, TokenJaiKind_Float64},
+{4, TokenJaiKind_S16},
+{0, 0},
+{4, TokenJaiKind_Context},
+{0, 0},
+{4, TokenJaiKind_Float},
+{4, TokenJaiKind_Null},
+{4, TokenJaiKind_Enum},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_Return},
+{4, TokenJaiKind_S32},
+{4, TokenJaiKind_Uninitialized},
+{4, TokenJaiKind_Delete},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_Goto},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_It},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_Float32},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_String},
+{0, 0},
+{4, TokenJaiKind_Struct},
+{8, TokenJaiKind_LiteralFalse},
 {0, 0},
 };
-i32 cpp_main_keys_slot_count = 126;
-u64 cpp_main_keys_seed = 0xc0e096371eac90d4;
-u64 cpp_pp_directives_hash_array[27] = {
-0xbc51983ae2406f03,0x50f8cc3c4897adb7,0x0000000000000000,0x7fca9c676b7abc51,
-0x0000000000000000,0x50f8cc3c50f370af,0x8647d568a285ac8b,0x0000000000000000,
-0x7fca9c67ee035611,0x7fca9c67ed71f0e3,0x0000000000000000,0x8647d6643f7df77d,
-0x0000000000000000,0x8647d6527f9cc8fb,0x50f8cc3c5ee396af,0x50f8cc3c48d0a84f,
-0xbc51983ae21093b7,0x0000000000000000,0x7fca9c67684f3eaf,0x0000000000000000,
-0xbc51983ae2109443,0xdab99d25783ad4e7,0x7fca9c60ffb40b67,0x0000000000000000,
-0x50f8cc3c599bdd21,0x0000000000000000,0x0000000000000000,
+i32 jai_main_keys_slot_count = 89;
+u64 jai_main_keys_seed = 0x58cb0283ffd83e33;
+u64 jai_pp_directives_hash_array[26] = {
+0x6417a3d9dfc55afb,0x0000000000000000,0x8b4204d7b211c19b,0x8c86ef570f6ef2d7,
+0x6417a3d9cb655ea1,0x0000000000000000,0x8c86ef5753b78877,0x8c86ef528e7779ed,
+0x0000000000000000,0x8b4204d7b211c001,0xbc36b9ef7cd828fb,0x0000000000000000,
+0x6417a3d9cbec23db,0x0000000000000000,0xb6b15ef12b1b4453,0x0000000000000000,
+0x6417a3d9d9f9efdb,0x8b4204d7b3ae6191,0x0000000000000000,0x0000000000000000,
+0x6417a3d9ded4990b,0xb6b15ee3161a294f,0x0000000000000000,0x8b4204d7b3afca57,
+0x8c86ef5446fe6a5b,0x0000000000000000,
 };
-u8 cpp_pp_directives_key_array_0[] = {0x6c,0x69,0x6e,0x65,};
-u8 cpp_pp_directives_key_array_1[] = {0x65,0x6e,0x64,0x69,0x66,};
-u8 cpp_pp_directives_key_array_3[] = {0x69,0x6d,0x70,0x6f,0x72,0x74,};
-u8 cpp_pp_directives_key_array_5[] = {0x69,0x66,0x64,0x65,0x66,};
-u8 cpp_pp_directives_key_array_6[] = {0x76,0x65,0x72,0x73,0x69,0x6f,0x6e,};
-u8 cpp_pp_directives_key_array_8[] = {0x64,0x65,0x70,0x65,0x6e,0x64,};
-u8 cpp_pp_directives_key_array_9[] = {0x64,0x65,0x66,0x69,0x6e,0x65,};
-u8 cpp_pp_directives_key_array_11[] = {0x73,0x6e,0x69,0x70,0x70,0x65,0x74,};
-u8 cpp_pp_directives_key_array_13[] = {0x69,0x6e,0x63,0x6c,0x75,0x64,0x65,};
-u8 cpp_pp_directives_key_array_14[] = {0x75,0x6e,0x64,0x65,0x66,};
-u8 cpp_pp_directives_key_array_15[] = {0x65,0x72,0x72,0x6f,0x72,};
-u8 cpp_pp_directives_key_array_16[] = {0x65,0x6c,0x69,0x66,};
-u8 cpp_pp_directives_key_array_18[] = {0x69,0x66,0x6e,0x64,0x65,0x66,};
-u8 cpp_pp_directives_key_array_20[] = {0x65,0x6c,0x73,0x65,};
-u8 cpp_pp_directives_key_array_21[] = {0x69,0x66,};
-u8 cpp_pp_directives_key_array_22[] = {0x70,0x72,0x61,0x67,0x6d,0x61,};
-u8 cpp_pp_directives_key_array_24[] = {0x75,0x73,0x69,0x6e,0x67,};
-String_Const_u8 cpp_pp_directives_key_array[27] = {
-{cpp_pp_directives_key_array_0, 4},
-{cpp_pp_directives_key_array_1, 5},
+u8 jai_pp_directives_key_array_0[] = {0x65,0x6e,0x64,0x69,0x66,};
+u8 jai_pp_directives_key_array_2[] = {0x65,0x6c,0x69,0x66,};
+u8 jai_pp_directives_key_array_3[] = {0x64,0x65,0x66,0x69,0x6e,0x65,};
+u8 jai_pp_directives_key_array_4[] = {0x75,0x73,0x69,0x6e,0x67,};
+u8 jai_pp_directives_key_array_6[] = {0x69,0x6d,0x70,0x6f,0x72,0x74,};
+u8 jai_pp_directives_key_array_7[] = {0x70,0x72,0x61,0x67,0x6d,0x61,};
+u8 jai_pp_directives_key_array_9[] = {0x65,0x6c,0x73,0x65,};
+u8 jai_pp_directives_key_array_10[] = {0x69,0x66,};
+u8 jai_pp_directives_key_array_12[] = {0x75,0x6e,0x64,0x65,0x66,};
+u8 jai_pp_directives_key_array_14[] = {0x76,0x65,0x72,0x73,0x69,0x6f,0x6e,};
+u8 jai_pp_directives_key_array_16[] = {0x69,0x66,0x64,0x65,0x66,};
+u8 jai_pp_directives_key_array_17[] = {0x6c,0x6f,0x61,0x64,};
+u8 jai_pp_directives_key_array_20[] = {0x65,0x72,0x72,0x6f,0x72,};
+u8 jai_pp_directives_key_array_21[] = {0x69,0x6e,0x63,0x6c,0x75,0x64,0x65,};
+u8 jai_pp_directives_key_array_23[] = {0x6c,0x69,0x6e,0x65,};
+u8 jai_pp_directives_key_array_24[] = {0x69,0x66,0x6e,0x64,0x65,0x66,};
+String_Const_u8 jai_pp_directives_key_array[26] = {
+{jai_pp_directives_key_array_0, 5},
 {0, 0},
-{cpp_pp_directives_key_array_3, 6},
+{jai_pp_directives_key_array_2, 4},
+{jai_pp_directives_key_array_3, 6},
+{jai_pp_directives_key_array_4, 5},
 {0, 0},
-{cpp_pp_directives_key_array_5, 5},
-{cpp_pp_directives_key_array_6, 7},
+{jai_pp_directives_key_array_6, 6},
+{jai_pp_directives_key_array_7, 6},
 {0, 0},
-{cpp_pp_directives_key_array_8, 6},
-{cpp_pp_directives_key_array_9, 6},
+{jai_pp_directives_key_array_9, 4},
+{jai_pp_directives_key_array_10, 2},
 {0, 0},
-{cpp_pp_directives_key_array_11, 7},
+{jai_pp_directives_key_array_12, 5},
 {0, 0},
-{cpp_pp_directives_key_array_13, 7},
-{cpp_pp_directives_key_array_14, 5},
-{cpp_pp_directives_key_array_15, 5},
-{cpp_pp_directives_key_array_16, 4},
+{jai_pp_directives_key_array_14, 7},
 {0, 0},
-{cpp_pp_directives_key_array_18, 6},
+{jai_pp_directives_key_array_16, 5},
+{jai_pp_directives_key_array_17, 4},
 {0, 0},
-{cpp_pp_directives_key_array_20, 4},
-{cpp_pp_directives_key_array_21, 2},
-{cpp_pp_directives_key_array_22, 6},
 {0, 0},
-{cpp_pp_directives_key_array_24, 5},
+{jai_pp_directives_key_array_20, 5},
+{jai_pp_directives_key_array_21, 7},
 {0, 0},
+{jai_pp_directives_key_array_23, 4},
+{jai_pp_directives_key_array_24, 6},
 {0, 0},
 };
-Lexeme_Table_Value cpp_pp_directives_value_array[27] = {
-{5, TokenCppKind_PPLine},
-{5, TokenCppKind_PPEndIf},
+Lexeme_Table_Value jai_pp_directives_value_array[26] = {
+{5, TokenJaiKind_PPEndIf},
 {0, 0},
-{5, TokenCppKind_PPImport},
+{5, TokenJaiKind_PPElIf},
+{5, TokenJaiKind_PPDefine},
+{5, TokenJaiKind_PPUsing},
 {0, 0},
-{5, TokenCppKind_PPIfDef},
-{5, TokenCppKind_PPVersion},
+{5, TokenJaiKind_PPImport},
+{5, TokenJaiKind_PPPragma},
 {0, 0},
-{5, TokenCppKind_PPDepend},
-{5, TokenCppKind_PPDefine},
+{5, TokenJaiKind_PPElse},
+{5, TokenJaiKind_PPIf},
 {0, 0},
-{5, TokenCppKind_PPSnippet},
+{5, TokenJaiKind_PPUndef},
 {0, 0},
-{5, TokenCppKind_PPInclude},
-{5, TokenCppKind_PPUndef},
-{5, TokenCppKind_PPError},
-{5, TokenCppKind_PPElIf},
+{5, TokenJaiKind_PPVersion},
 {0, 0},
-{5, TokenCppKind_PPIfNDef},
+{5, TokenJaiKind_PPIfDef},
+{5, TokenJaiKind_PPLoad},
 {0, 0},
-{5, TokenCppKind_PPElse},
-{5, TokenCppKind_PPIf},
-{5, TokenCppKind_PPPragma},
 {0, 0},
-{5, TokenCppKind_PPUsing},
+{5, TokenJaiKind_PPError},
+{5, TokenJaiKind_PPInclude},
 {0, 0},
+{5, TokenJaiKind_PPLine},
+{5, TokenJaiKind_PPIfNDef},
 {0, 0},
 };
-i32 cpp_pp_directives_slot_count = 27;
-u64 cpp_pp_directives_seed = 0x85db3e7490ad325d;
-u64 cpp_pp_keys_hash_array[2] = {
-0x0000000000000000,0x9368469980b783c5,
+i32 jai_pp_directives_slot_count = 26;
+u64 jai_pp_directives_seed = 0xd71e895862a43342;
+u64 jai_pp_keys_hash_array[2] = {
+0x0000000000000000,0x6f10bd7e78f1fcc3,
 };
-u8 cpp_pp_keys_key_array_1[] = {0x64,0x65,0x66,0x69,0x6e,0x65,0x64,};
-String_Const_u8 cpp_pp_keys_key_array[2] = {
+u8 jai_pp_keys_key_array_1[] = {0x64,0x65,0x66,0x69,0x6e,0x65,0x64,};
+String_Const_u8 jai_pp_keys_key_array[2] = {
 {0, 0},
-{cpp_pp_keys_key_array_1, 7},
+{jai_pp_keys_key_array_1, 7},
 };
-Lexeme_Table_Value cpp_pp_keys_value_array[2] = {
+Lexeme_Table_Value jai_pp_keys_value_array[2] = {
 {0, 0},
-{4, TokenCppKind_PPDefined},
+{4, TokenJaiKind_PPDefined},
 };
-i32 cpp_pp_keys_slot_count = 2;
-u64 cpp_pp_keys_seed = 0x348d0ca0919fed45;
-struct Lex_State_Cpp{
+i32 jai_pp_keys_slot_count = 2;
+u64 jai_pp_keys_seed = 0x567b5b0cc8c5535f;
+struct Lex_State_Jai{
 u32 flags_ZF0;
 u32 flags_KF0;
-u16 flags_KB0;
+u16 flags_ZB0;
 u8 *base;
 u8 *delim_first;
 u8 *delim_one_past_last;
@@ -515,10 +411,10 @@ u8 *ptr;
 u8 *opl_ptr;
 };
 internal void
-lex_full_input_cpp_init(Lex_State_Cpp *state_ptr, String_Const_u8 input){
+lex_full_input_jai_init(Lex_State_Jai *state_ptr, String_Const_u8 input){
 state_ptr->flags_ZF0 = 0;
 state_ptr->flags_KF0 = 0;
-state_ptr->flags_KB0 = 0;
+state_ptr->flags_ZB0 = 0;
 state_ptr->base = input.str;
 state_ptr->delim_first = input.str;
 state_ptr->delim_one_past_last = input.str;
@@ -527,10 +423,10 @@ state_ptr->ptr = input.str;
 state_ptr->opl_ptr = input.str + input.size;
 }
 internal b32
-lex_full_input_cpp_breaks(Arena *arena, Token_List *list, Lex_State_Cpp *state_ptr, u64 max){
+lex_full_input_jai_breaks(Arena *arena, Token_List *list, Lex_State_Jai *state_ptr, u64 max){
 b32 result = false;
 u64 emit_counter = 0;
-Lex_State_Cpp state;
+Lex_State_Jai state;
 block_copy_struct(&state, state_ptr);
 {
 state_label_1: // root
@@ -540,9 +436,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_EOF;
+token.sub_kind = TokenJaiKind_EOF;
 token.kind = 0;
 }while(0);
 token_list_push(arena, list, &token);
@@ -550,6 +446,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 result = true;
 goto end;
 }
@@ -566,9 +463,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -579,6 +476,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x09:case 0x0b:case 0x0c:case 0x0d:case 0x20:
@@ -593,6 +491,7 @@ goto state_label_3; // whitespace
 case 0x0a:
 {
 state.ptr += 1;
+state.flags_ZB0 &= ~(0x1);
 state.flags_KF0 &= ~(0x1);
 state.flags_KF0 &= ~(0x2);
 goto state_label_3; // whitespace
@@ -600,7 +499,7 @@ goto state_label_3; // whitespace
 case 0x21:
 {
 state.ptr += 1;
-goto state_label_61; // op stage
+goto state_label_58; // op stage
 }break;
 case 0x22:
 {
@@ -613,12 +512,30 @@ goto state_label_32; // string
 }break;
 case 0x23:
 {
-if ((!HasFlag(state.flags_KB0, 0x1))){
+if ((!HasFlag(state.flags_ZB0, 0x1))){
 state.ptr += 1;
 goto state_label_23; // pp_directive_whitespace
 }
 state.ptr += 1;
-goto state_label_68; // op stage
+{
+Token token = {};
+token.pos = (i64)(state.emit_ptr - state.base);
+token.size = (i64)(state.ptr - state.emit_ptr);
+token.flags = state.flags_ZB0;
+do{
+token.sub_kind = TokenJaiKind_LexError;
+token.kind = 2;
+}while(0);
+token_list_push(arena, list, &token);
+emit_counter += 1;
+state.emit_ptr = state.ptr;
+if (emit_counter == max){
+goto end;
+}
+}
+state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
+goto state_label_1; // root
 }break;
 default:
 {
@@ -628,12 +545,12 @@ goto state_label_2; // identifier
 case 0x25:
 {
 state.ptr += 1;
-goto state_label_65; // op stage
+goto state_label_63; // op stage
 }break;
 case 0x26:
 {
 state.ptr += 1;
-goto state_label_62; // op stage
+goto state_label_59; // op stage
 }break;
 case 0x27:
 {
@@ -648,9 +565,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_ParenOp;
+token.sub_kind = TokenJaiKind_ParenOp;
 token.kind = 13;
 }while(0);
 token_list_push(arena, list, &token);
@@ -661,6 +578,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x29:
@@ -670,9 +588,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_ParenCl;
+token.sub_kind = TokenJaiKind_ParenCl;
 token.kind = 14;
 }while(0);
 token_list_push(arena, list, &token);
@@ -683,17 +601,18 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x2a:
 {
 state.ptr += 1;
-goto state_label_64; // op stage
+goto state_label_62; // op stage
 }break;
 case 0x2b:
 {
 state.ptr += 1;
-goto state_label_54; // op stage
+goto state_label_61; // op stage
 }break;
 case 0x2c:
 {
@@ -702,9 +621,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Comma;
+token.sub_kind = TokenJaiKind_Comma;
 token.kind = 15;
 }while(0);
 token_list_push(arena, list, &token);
@@ -715,12 +634,13 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x2d:
 {
 state.ptr += 1;
-goto state_label_55; // op stage
+goto state_label_54; // op stage
 }break;
 case 0x2e:
 {
@@ -755,9 +675,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Semicolon;
+token.sub_kind = TokenJaiKind_Semicolon;
 token.kind = 15;
 }while(0);
 token_list_push(arena, list, &token);
@@ -768,13 +688,14 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x3c:
 {
 if ((!HasFlag(state.flags_KF0, 0x1))){
 state.ptr += 1;
-goto state_label_57; // op stage
+goto state_label_56; // op stage
 }
 state.ptr += 1;
 goto state_label_25; // include_pointy
@@ -782,12 +703,12 @@ goto state_label_25; // include_pointy
 case 0x3d:
 {
 state.ptr += 1;
-goto state_label_60; // op stage
+goto state_label_55; // op stage
 }break;
 case 0x3e:
 {
 state.ptr += 1;
-goto state_label_58; // op stage
+goto state_label_57; // op stage
 }break;
 case 0x3f:
 {
@@ -796,9 +717,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Ternary;
+token.sub_kind = TokenJaiKind_Ternary;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -809,6 +730,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x4c:
@@ -835,9 +757,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_BrackOp;
+token.sub_kind = TokenJaiKind_BrackOp;
 token.kind = 13;
 }while(0);
 token_list_push(arena, list, &token);
@@ -848,6 +770,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x5c:
@@ -862,9 +785,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_BrackCl;
+token.sub_kind = TokenJaiKind_BrackCl;
 token.kind = 14;
 }while(0);
 token_list_push(arena, list, &token);
@@ -875,6 +798,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x5e:
@@ -884,9 +808,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Xor;
+token.sub_kind = TokenJaiKind_Xor;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -897,6 +821,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x75:
@@ -912,9 +837,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_BraceOp;
+token.sub_kind = TokenJaiKind_BraceOp;
 token.kind = 11;
 }while(0);
 token_list_push(arena, list, &token);
@@ -925,12 +850,13 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x7c:
 {
 state.ptr += 1;
-goto state_label_63; // op stage
+goto state_label_60; // op stage
 }break;
 case 0x7d:
 {
@@ -939,9 +865,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_BraceCl;
+token.sub_kind = TokenJaiKind_BraceCl;
 token.kind = 12;
 }while(0);
 token_list_push(arena, list, &token);
@@ -952,6 +878,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x7e:
@@ -961,9 +888,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Tilde;
+token.sub_kind = TokenJaiKind_Tilde;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -974,6 +901,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -986,15 +914,23 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-Lexeme_Table_Lookup lookup = lexeme_table_lookup(cpp_main_keys_hash_array, cpp_main_keys_key_array, cpp_main_keys_value_array, cpp_main_keys_slot_count, cpp_main_keys_seed, state.emit_ptr, token.size);
+if (HasFlag(state.flags_ZB0, 0x1)){
+Lexeme_Table_Lookup lookup = lexeme_table_lookup(jai_pp_keys_hash_array, jai_pp_keys_key_array, jai_pp_keys_value_array, jai_pp_keys_slot_count, jai_pp_keys_seed, state.emit_ptr, token.size);
 if (lookup.found_match){
 token.kind = lookup.base_kind;
 token.sub_kind = lookup.sub_kind;
 break;
 }
-token.sub_kind = TokenCppKind_Identifier;
+}
+Lexeme_Table_Lookup lookup = lexeme_table_lookup(jai_main_keys_hash_array, jai_main_keys_key_array, jai_main_keys_value_array, jai_main_keys_slot_count, jai_main_keys_seed, state.emit_ptr, token.size);
+if (lookup.found_match){
+token.kind = lookup.base_kind;
+token.sub_kind = lookup.sub_kind;
+break;
+}
+token.sub_kind = TokenJaiKind_Identifier;
 token.kind = 6;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1002,6 +938,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1021,15 +958,23 @@ case 0x7f:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-Lexeme_Table_Lookup lookup = lexeme_table_lookup(cpp_main_keys_hash_array, cpp_main_keys_key_array, cpp_main_keys_value_array, cpp_main_keys_slot_count, cpp_main_keys_seed, state.emit_ptr, token.size);
+if (HasFlag(state.flags_ZB0, 0x1)){
+Lexeme_Table_Lookup lookup = lexeme_table_lookup(jai_pp_keys_hash_array, jai_pp_keys_key_array, jai_pp_keys_value_array, jai_pp_keys_slot_count, jai_pp_keys_seed, state.emit_ptr, token.size);
 if (lookup.found_match){
 token.kind = lookup.base_kind;
 token.sub_kind = lookup.sub_kind;
 break;
 }
-token.sub_kind = TokenCppKind_Identifier;
+}
+Lexeme_Table_Lookup lookup = lexeme_table_lookup(jai_main_keys_hash_array, jai_main_keys_key_array, jai_main_keys_value_array, jai_main_keys_slot_count, jai_main_keys_seed, state.emit_ptr, token.size);
+if (lookup.found_match){
+token.kind = lookup.base_kind;
+token.sub_kind = lookup.sub_kind;
+break;
+}
+token.sub_kind = TokenJaiKind_Identifier;
 token.kind = 6;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1040,6 +985,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 default:
@@ -1057,9 +1003,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Whitespace;
+token.sub_kind = TokenJaiKind_Whitespace;
 token.kind = 1;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1067,6 +1013,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1077,9 +1024,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Whitespace;
+token.sub_kind = TokenJaiKind_Whitespace;
 token.kind = 1;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1090,6 +1037,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x09:case 0x0b:case 0x0c:case 0x0d:case 0x20:
@@ -1100,6 +1048,7 @@ goto state_label_3; // whitespace
 case 0x0a:
 {
 state.ptr += 1;
+state.flags_ZB0 &= ~(0x1);
 state.flags_KF0 &= ~(0x1);
 state.flags_KF0 &= ~(0x2);
 goto state_label_3; // whitespace
@@ -1114,9 +1063,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_PPErrorMessage;
+token.sub_kind = TokenJaiKind_PPErrorMessage;
 token.kind = 10;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1124,6 +1073,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1139,9 +1089,9 @@ case 0x0a:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_PPErrorMessage;
+token.sub_kind = TokenJaiKind_PPErrorMessage;
 token.kind = 10;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1152,6 +1102,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -1164,9 +1115,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Backslash;
+token.sub_kind = TokenJaiKind_Backslash;
 token.kind = 1;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1174,6 +1125,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1184,9 +1136,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Backslash;
+token.sub_kind = TokenJaiKind_Backslash;
 token.kind = 1;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1197,6 +1149,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x0a:
@@ -1206,9 +1159,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Backslash;
+token.sub_kind = TokenJaiKind_Backslash;
 token.kind = 1;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1219,6 +1172,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x0d:
@@ -1236,9 +1190,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Dot;
+token.sub_kind = TokenJaiKind_Dot;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1246,6 +1200,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1256,9 +1211,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Dot;
+token.sub_kind = TokenJaiKind_Dot;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1269,6 +1224,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x2a:
@@ -1278,9 +1234,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_DotStar;
+token.sub_kind = TokenJaiKind_DotStar;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1291,12 +1247,13 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x2e:
 {
 state.ptr += 1;
-goto state_label_69; // op stage
+goto state_label_66; // op stage
 }break;
 case 0x30:case 0x31:case 0x32:case 0x33:case 0x34:case 0x35:case 0x36:
 case 0x37:case 0x38:case 0x39:
@@ -1314,9 +1271,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Div;
+token.sub_kind = TokenJaiKind_Div;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1324,6 +1281,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1334,9 +1292,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Div;
+token.sub_kind = TokenJaiKind_Div;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1347,6 +1305,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x2a:
@@ -1366,9 +1325,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_DivEq;
+token.sub_kind = TokenJaiKind_DivEq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1379,6 +1338,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -1391,9 +1351,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralInteger;
+token.sub_kind = TokenJaiKind_LiteralInteger;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1401,6 +1361,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1411,9 +1372,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralInteger;
+token.sub_kind = TokenJaiKind_LiteralInteger;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1424,6 +1385,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x2e:
@@ -1467,9 +1429,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralInteger;
+token.sub_kind = TokenJaiKind_LiteralInteger;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1477,6 +1439,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1487,9 +1450,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralInteger;
+token.sub_kind = TokenJaiKind_LiteralInteger;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1500,6 +1463,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x2e:
@@ -1550,9 +1514,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1560,6 +1524,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1570,9 +1535,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1583,6 +1548,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x30:case 0x31:case 0x32:case 0x33:case 0x34:case 0x35:case 0x36:
@@ -1603,9 +1569,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat32;
+token.sub_kind = TokenJaiKind_LiteralFloat32;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1616,6 +1582,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x4c:case 0x6c:
@@ -1625,9 +1592,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1638,6 +1605,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -1650,9 +1618,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1660,6 +1628,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1670,9 +1639,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1683,6 +1652,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x2b:case 0x2d:
@@ -1703,9 +1673,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat32;
+token.sub_kind = TokenJaiKind_LiteralFloat32;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1716,6 +1686,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x4c:case 0x6c:
@@ -1725,9 +1696,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1738,6 +1709,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -1750,9 +1722,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1760,6 +1732,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1770,9 +1743,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1783,6 +1756,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x30:case 0x31:case 0x32:case 0x33:case 0x34:case 0x35:case 0x36:
@@ -1798,9 +1772,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat32;
+token.sub_kind = TokenJaiKind_LiteralFloat32;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1811,6 +1785,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x4c:case 0x6c:
@@ -1820,9 +1795,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1833,6 +1808,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -1845,9 +1821,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1855,6 +1831,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1865,9 +1842,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1878,6 +1855,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x30:case 0x31:case 0x32:case 0x33:case 0x34:case 0x35:case 0x36:
@@ -1893,9 +1871,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat32;
+token.sub_kind = TokenJaiKind_LiteralFloat32;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1906,6 +1884,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x4c:case 0x6c:
@@ -1915,9 +1894,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralFloat64;
+token.sub_kind = TokenJaiKind_LiteralFloat64;
 token.kind = 9;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1928,6 +1907,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -1940,9 +1920,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1950,6 +1930,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -1960,9 +1941,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -1973,6 +1954,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x30:case 0x31:case 0x32:case 0x33:case 0x34:case 0x35:case 0x36:
@@ -1993,9 +1975,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralIntegerHex;
+token.sub_kind = TokenJaiKind_LiteralIntegerHex;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2003,6 +1985,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2013,9 +1996,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralIntegerHex;
+token.sub_kind = TokenJaiKind_LiteralIntegerHex;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2026,6 +2009,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x30:case 0x31:case 0x32:case 0x33:case 0x34:case 0x35:case 0x36:
@@ -2061,9 +2045,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralIntegerOct;
+token.sub_kind = TokenJaiKind_LiteralIntegerOct;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2071,6 +2055,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2081,9 +2066,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LiteralIntegerOct;
+token.sub_kind = TokenJaiKind_LiteralIntegerOct;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2094,6 +2079,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x30:case 0x31:case 0x32:case 0x33:case 0x34:case 0x35:case 0x36:
@@ -2128,19 +2114,19 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexU;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexU;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctU;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctU;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerU;
+token.sub_kind = TokenJaiKind_LiteralIntegerU;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2148,6 +2134,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2158,19 +2145,19 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexU;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexU;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctU;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctU;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerU;
+token.sub_kind = TokenJaiKind_LiteralIntegerU;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2181,6 +2168,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x4c:
@@ -2203,19 +2191,19 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerL;
+token.sub_kind = TokenJaiKind_LiteralIntegerL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2223,6 +2211,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2233,19 +2222,19 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerL;
+token.sub_kind = TokenJaiKind_LiteralIntegerL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2256,6 +2245,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x4c:
@@ -2270,19 +2260,19 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexUL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctUL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerUL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2293,6 +2283,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -2305,19 +2296,19 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexUL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctUL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerUL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2325,6 +2316,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2335,19 +2327,19 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexUL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctUL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerUL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2358,6 +2350,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x4c:
@@ -2367,19 +2360,19 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexULL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexULL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctULL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctULL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerULL;
+token.sub_kind = TokenJaiKind_LiteralIntegerULL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2390,6 +2383,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -2402,19 +2396,19 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerL;
+token.sub_kind = TokenJaiKind_LiteralIntegerL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2422,6 +2416,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2432,19 +2427,19 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerL;
+token.sub_kind = TokenJaiKind_LiteralIntegerL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2455,6 +2450,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x55:case 0x75:
@@ -2464,19 +2460,19 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexUL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctUL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerUL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2487,6 +2483,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x6c:
@@ -2504,19 +2501,19 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexUL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctUL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerUL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2524,6 +2521,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2534,19 +2532,19 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexUL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctUL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerUL;
+token.sub_kind = TokenJaiKind_LiteralIntegerUL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2557,6 +2555,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x6c:
@@ -2566,19 +2565,19 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexULL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexULL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctULL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctULL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerULL;
+token.sub_kind = TokenJaiKind_LiteralIntegerULL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2589,6 +2588,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -2601,19 +2601,19 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexLL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexLL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctLL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctLL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerLL;
+token.sub_kind = TokenJaiKind_LiteralIntegerLL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2621,6 +2621,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2631,19 +2632,19 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexLL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexLL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctLL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctLL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerLL;
+token.sub_kind = TokenJaiKind_LiteralIntegerLL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2654,6 +2655,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x55:case 0x75:
@@ -2663,19 +2665,19 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x1)){
-token.sub_kind = TokenCppKind_LiteralIntegerHexULL;
+token.sub_kind = TokenJaiKind_LiteralIntegerHexULL;
 token.kind = 8;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x2)){
-token.sub_kind = TokenCppKind_LiteralIntegerOctULL;
+token.sub_kind = TokenJaiKind_LiteralIntegerOctULL;
 token.kind = 8;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralIntegerULL;
+token.sub_kind = TokenJaiKind_LiteralIntegerULL;
 token.kind = 8;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2686,6 +2688,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -2698,9 +2701,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2708,6 +2711,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2718,9 +2722,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2731,6 +2735,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x09:case 0x0b:case 0x0c:case 0x20:
@@ -2749,6 +2754,7 @@ case 0x6d:case 0x6e:case 0x6f:case 0x70:case 0x71:case 0x72:case 0x73:
 case 0x74:case 0x75:case 0x76:case 0x77:case 0x78:case 0x79:case 0x7a:
 {
 state.delim_first = state.ptr;
+state.flags_ZB0 |= 0x1;
 state.ptr += 1;
 goto state_label_24; // pp_directive
 }break;
@@ -2763,23 +2769,23 @@ state.delim_one_past_last = state.ptr;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-Lexeme_Table_Lookup lookup = lexeme_table_lookup(cpp_pp_directives_hash_array, cpp_pp_directives_key_array, cpp_pp_directives_value_array, cpp_pp_directives_slot_count, cpp_pp_directives_seed, state.delim_first, (state.delim_one_past_last - state.delim_first));
+Lexeme_Table_Lookup lookup = lexeme_table_lookup(jai_pp_directives_hash_array, jai_pp_directives_key_array, jai_pp_directives_value_array, jai_pp_directives_slot_count, jai_pp_directives_seed, state.delim_first, (state.delim_one_past_last - state.delim_first));
 if (lookup.found_match){
 token.kind = lookup.base_kind;
 token.sub_kind = lookup.sub_kind;
 break;
 }
-token.sub_kind = TokenCppKind_PPUnknown;
+token.sub_kind = TokenJaiKind_PPUnknown;
 token.kind = 2;
 }while(0);
 switch (token.sub_kind){
-case TokenCppKind_PPInclude:
+case TokenJaiKind_PPInclude:
 {
 state.flags_KF0 |= 0x1;
 }break;
-case TokenCppKind_PPError:
+case TokenJaiKind_PPError:
 {
 state.flags_KF0 |= 0x2;
 }break;
@@ -2789,6 +2795,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2800,23 +2807,23 @@ state.delim_one_past_last = state.ptr;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-Lexeme_Table_Lookup lookup = lexeme_table_lookup(cpp_pp_directives_hash_array, cpp_pp_directives_key_array, cpp_pp_directives_value_array, cpp_pp_directives_slot_count, cpp_pp_directives_seed, state.delim_first, (state.delim_one_past_last - state.delim_first));
+Lexeme_Table_Lookup lookup = lexeme_table_lookup(jai_pp_directives_hash_array, jai_pp_directives_key_array, jai_pp_directives_value_array, jai_pp_directives_slot_count, jai_pp_directives_seed, state.delim_first, (state.delim_one_past_last - state.delim_first));
 if (lookup.found_match){
 token.kind = lookup.base_kind;
 token.sub_kind = lookup.sub_kind;
 break;
 }
-token.sub_kind = TokenCppKind_PPUnknown;
+token.sub_kind = TokenJaiKind_PPUnknown;
 token.kind = 2;
 }while(0);
 switch (token.sub_kind){
-case TokenCppKind_PPInclude:
+case TokenJaiKind_PPInclude:
 {
 state.flags_KF0 |= 0x1;
 }break;
-case TokenCppKind_PPError:
+case TokenJaiKind_PPError:
 {
 state.flags_KF0 |= 0x2;
 }break;
@@ -2829,6 +2836,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x30:case 0x31:case 0x32:case 0x33:case 0x34:case 0x35:case 0x36:
@@ -2854,9 +2862,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2864,6 +2872,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2874,9 +2883,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2887,21 +2896,19 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
-case 0x20:case 0x21:case 0x22:case 0x23:case 0x24:case 0x25:case 0x26:
-case 0x27:case 0x28:case 0x29:case 0x2a:case 0x2b:case 0x2c:case 0x2d:
-case 0x2e:case 0x2f:case 0x30:case 0x31:case 0x32:case 0x33:case 0x34:
-case 0x35:case 0x36:case 0x37:case 0x38:case 0x39:case 0x3a:case 0x3b:
-case 0x3d:case 0x3f:case 0x40:case 0x41:case 0x42:case 0x43:case 0x44:
-case 0x45:case 0x46:case 0x47:case 0x48:case 0x49:case 0x4a:case 0x4b:
-case 0x4c:case 0x4d:case 0x4e:case 0x4f:case 0x50:case 0x51:case 0x52:
-case 0x53:case 0x54:case 0x55:case 0x56:case 0x57:case 0x58:case 0x59:
-case 0x5a:case 0x5b:case 0x5c:case 0x5d:case 0x5e:case 0x5f:case 0x61:
+case 0x20:case 0x2e:case 0x2f:case 0x30:case 0x31:case 0x32:case 0x33:
+case 0x34:case 0x35:case 0x36:case 0x37:case 0x38:case 0x39:case 0x41:
+case 0x42:case 0x43:case 0x44:case 0x45:case 0x46:case 0x47:case 0x48:
+case 0x49:case 0x4a:case 0x4b:case 0x4c:case 0x4d:case 0x4e:case 0x4f:
+case 0x50:case 0x51:case 0x52:case 0x53:case 0x54:case 0x55:case 0x56:
+case 0x57:case 0x58:case 0x59:case 0x5a:case 0x5c:case 0x5f:case 0x61:
 case 0x62:case 0x63:case 0x64:case 0x65:case 0x66:case 0x67:case 0x68:
 case 0x69:case 0x6a:case 0x6b:case 0x6c:case 0x6d:case 0x6e:case 0x6f:
 case 0x70:case 0x71:case 0x72:case 0x73:case 0x74:case 0x75:case 0x76:
-case 0x77:case 0x78:case 0x79:case 0x7a:case 0x7b:case 0x7c:case 0x7d:
+case 0x77:case 0x78:case 0x79:case 0x7a:
 {
 state.ptr += 1;
 goto state_label_25; // include_pointy
@@ -2913,9 +2920,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_PPIncludeFile;
+token.sub_kind = TokenJaiKind_PPIncludeFile;
 token.kind = 10;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2926,6 +2933,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -2938,9 +2946,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2948,6 +2956,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -2958,9 +2967,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -2971,22 +2980,19 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
-case 0x20:case 0x21:case 0x23:case 0x24:case 0x25:case 0x26:case 0x27:
-case 0x28:case 0x29:case 0x2a:case 0x2b:case 0x2c:case 0x2d:case 0x2e:
-case 0x2f:case 0x30:case 0x31:case 0x32:case 0x33:case 0x34:case 0x35:
-case 0x36:case 0x37:case 0x38:case 0x39:case 0x3a:case 0x3b:case 0x3c:
-case 0x3d:case 0x3e:case 0x3f:case 0x40:case 0x41:case 0x42:case 0x43:
-case 0x44:case 0x45:case 0x46:case 0x47:case 0x48:case 0x49:case 0x4a:
-case 0x4b:case 0x4c:case 0x4d:case 0x4e:case 0x4f:case 0x50:case 0x51:
-case 0x52:case 0x53:case 0x54:case 0x55:case 0x56:case 0x57:case 0x58:
-case 0x59:case 0x5a:case 0x5b:case 0x5c:case 0x5d:case 0x5e:case 0x5f:
-case 0x61:case 0x62:case 0x63:case 0x64:case 0x65:case 0x66:case 0x67:
-case 0x68:case 0x69:case 0x6a:case 0x6b:case 0x6c:case 0x6d:case 0x6e:
-case 0x6f:case 0x70:case 0x71:case 0x72:case 0x73:case 0x74:case 0x75:
-case 0x76:case 0x77:case 0x78:case 0x79:case 0x7a:case 0x7b:case 0x7c:
-case 0x7d:
+case 0x20:case 0x2e:case 0x2f:case 0x30:case 0x31:case 0x32:case 0x33:
+case 0x34:case 0x35:case 0x36:case 0x37:case 0x38:case 0x39:case 0x41:
+case 0x42:case 0x43:case 0x44:case 0x45:case 0x46:case 0x47:case 0x48:
+case 0x49:case 0x4a:case 0x4b:case 0x4c:case 0x4d:case 0x4e:case 0x4f:
+case 0x50:case 0x51:case 0x52:case 0x53:case 0x54:case 0x55:case 0x56:
+case 0x57:case 0x58:case 0x59:case 0x5a:case 0x5c:case 0x5f:case 0x61:
+case 0x62:case 0x63:case 0x64:case 0x65:case 0x66:case 0x67:case 0x68:
+case 0x69:case 0x6a:case 0x6b:case 0x6c:case 0x6d:case 0x6e:case 0x6f:
+case 0x70:case 0x71:case 0x72:case 0x73:case 0x74:case 0x75:case 0x76:
+case 0x77:case 0x78:case 0x79:case 0x7a:
 {
 state.ptr += 1;
 goto state_label_26; // include_quotes
@@ -2998,9 +3004,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_PPIncludeFile;
+token.sub_kind = TokenJaiKind_PPIncludeFile;
 token.kind = 10;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3011,6 +3017,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -3145,9 +3152,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3155,6 +3162,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -3170,9 +3178,9 @@ case 0x0a:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3183,6 +3191,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x22:
@@ -3193,29 +3202,29 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x4)){
-token.sub_kind = TokenCppKind_LiteralStringWide;
+token.sub_kind = TokenJaiKind_LiteralStringWide;
 token.kind = 10;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x8)){
-token.sub_kind = TokenCppKind_LiteralStringUTF8;
+token.sub_kind = TokenJaiKind_LiteralStringUTF8;
 token.kind = 10;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x10)){
-token.sub_kind = TokenCppKind_LiteralStringUTF16;
+token.sub_kind = TokenJaiKind_LiteralStringUTF16;
 token.kind = 10;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x20)){
-token.sub_kind = TokenCppKind_LiteralStringUTF32;
+token.sub_kind = TokenJaiKind_LiteralStringUTF32;
 token.kind = 10;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralString;
+token.sub_kind = TokenJaiKind_LiteralString;
 token.kind = 10;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3226,6 +3235,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 state.ptr += 1;
@@ -3239,29 +3249,29 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x4)){
-token.sub_kind = TokenCppKind_LiteralCharacterWide;
+token.sub_kind = TokenJaiKind_LiteralCharacterWide;
 token.kind = 10;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x8)){
-token.sub_kind = TokenCppKind_LiteralCharacterUTF8;
+token.sub_kind = TokenJaiKind_LiteralCharacterUTF8;
 token.kind = 10;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x10)){
-token.sub_kind = TokenCppKind_LiteralCharacterUTF16;
+token.sub_kind = TokenJaiKind_LiteralCharacterUTF16;
 token.kind = 10;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x20)){
-token.sub_kind = TokenCppKind_LiteralCharacterUTF32;
+token.sub_kind = TokenJaiKind_LiteralCharacterUTF32;
 token.kind = 10;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralCharacter;
+token.sub_kind = TokenJaiKind_LiteralCharacter;
 token.kind = 10;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3272,6 +3282,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 state.ptr += 1;
@@ -3292,9 +3303,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3302,13 +3313,14 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 {
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_EOF;
+token.sub_kind = TokenJaiKind_EOF;
 token.kind = 0;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3316,6 +3328,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 result = true;
 goto end;
 }
@@ -3595,9 +3608,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3605,13 +3618,14 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 {
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_EOF;
+token.sub_kind = TokenJaiKind_EOF;
 token.kind = 0;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3619,6 +3633,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 result = true;
 goto end;
 }
@@ -3636,9 +3651,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3649,6 +3664,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x28:
@@ -3667,9 +3683,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LexError;
+token.sub_kind = TokenJaiKind_LexError;
 token.kind = 2;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3677,13 +3693,14 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 {
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_EOF;
+token.sub_kind = TokenJaiKind_EOF;
 token.kind = 0;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3691,6 +3708,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 result = true;
 goto end;
 }
@@ -3747,29 +3765,29 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
 if (HasFlag(state.flags_ZF0, 0x4)){
-token.sub_kind = TokenCppKind_LiteralStringWideRaw;
+token.sub_kind = TokenJaiKind_LiteralStringWideRaw;
 token.kind = 10;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x8)){
-token.sub_kind = TokenCppKind_LiteralStringUTF8Raw;
+token.sub_kind = TokenJaiKind_LiteralStringUTF8Raw;
 token.kind = 10;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x10)){
-token.sub_kind = TokenCppKind_LiteralStringUTF16Raw;
+token.sub_kind = TokenJaiKind_LiteralStringUTF16Raw;
 token.kind = 10;
 break;
 }
 if (HasFlag(state.flags_ZF0, 0x20)){
-token.sub_kind = TokenCppKind_LiteralStringUTF32Raw;
+token.sub_kind = TokenJaiKind_LiteralStringUTF32Raw;
 token.kind = 10;
 break;
 }
-token.sub_kind = TokenCppKind_LiteralStringRaw;
+token.sub_kind = TokenJaiKind_LiteralStringRaw;
 token.kind = 10;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3780,6 +3798,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -3792,9 +3811,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_BlockComment;
+token.sub_kind = TokenJaiKind_BlockComment;
 token.kind = 3;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3802,13 +3821,14 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 {
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_EOF;
+token.sub_kind = TokenJaiKind_EOF;
 token.kind = 0;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3816,6 +3836,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 result = true;
 goto end;
 }
@@ -3829,6 +3850,7 @@ goto state_label_49; // comment_block
 case 0x0a:
 {
 state.ptr += 1;
+state.flags_ZB0 &= ~(0x1);
 state.flags_KF0 &= ~(0x1);
 goto state_label_49; // comment_block
 }break;
@@ -3847,9 +3869,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_BlockComment;
+token.sub_kind = TokenJaiKind_BlockComment;
 token.kind = 3;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3857,13 +3879,14 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 {
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_EOF;
+token.sub_kind = TokenJaiKind_EOF;
 token.kind = 0;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3871,6 +3894,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 result = true;
 goto end;
 }
@@ -3893,9 +3917,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_BlockComment;
+token.sub_kind = TokenJaiKind_BlockComment;
 token.kind = 3;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3906,6 +3930,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -3918,9 +3943,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LineComment;
+token.sub_kind = TokenJaiKind_LineComment;
 token.kind = 3;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3928,6 +3953,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -3943,9 +3969,9 @@ case 0x0a:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LineComment;
+token.sub_kind = TokenJaiKind_LineComment;
 token.kind = 3;
 }while(0);
 token_list_push(arena, list, &token);
@@ -3956,6 +3982,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x5c:
@@ -3994,16 +4021,17 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Colon;
-token.kind = 15;
+token.sub_kind = TokenJaiKind_Colon;
+token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
 emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4014,31 +4042,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Colon;
-token.kind = 15;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-if (emit_counter == max){
-goto end;
-}
-}
-state.flags_ZF0 = 0;
-goto state_label_1; // root
-}break;
-case 0x3a:
-{
-state.ptr += 1;
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_ColonColon;
+token.sub_kind = TokenJaiKind_Colon;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4049,6 +4055,53 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
+goto state_label_1; // root
+}break;
+case 0x3a:
+{
+state.ptr += 1;
+{
+Token token = {};
+token.pos = (i64)(state.emit_ptr - state.base);
+token.size = (i64)(state.ptr - state.emit_ptr);
+token.flags = state.flags_ZB0;
+do{
+token.sub_kind = TokenJaiKind_ColonColon;
+token.kind = 7;
+}while(0);
+token_list_push(arena, list, &token);
+emit_counter += 1;
+state.emit_ptr = state.ptr;
+if (emit_counter == max){
+goto end;
+}
+}
+state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
+goto state_label_1; // root
+}break;
+case 0x3d:
+{
+state.ptr += 1;
+{
+Token token = {};
+token.pos = (i64)(state.emit_ptr - state.base);
+token.size = (i64)(state.ptr - state.emit_ptr);
+token.flags = state.flags_ZB0;
+do{
+token.sub_kind = TokenJaiKind_ColonEq;
+token.kind = 7;
+}while(0);
+token_list_push(arena, list, &token);
+emit_counter += 1;
+state.emit_ptr = state.ptr;
+if (emit_counter == max){
+goto end;
+}
+}
+state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -4061,9 +4114,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Plus;
+token.sub_kind = TokenJaiKind_Minus;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4071,6 +4124,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4081,9 +4135,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Plus;
+token.sub_kind = TokenJaiKind_Minus;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4094,28 +4148,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
-goto state_label_1; // root
-}break;
-case 0x2b:
-{
-state.ptr += 1;
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_PlusPlus;
-token.kind = 7;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-if (emit_counter == max){
-goto end;
-}
-}
-state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x3d:
@@ -4125,9 +4158,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_PlusEq;
+token.sub_kind = TokenJaiKind_MinusEq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4138,6 +4171,30 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
+goto state_label_1; // root
+}break;
+case 0x3e:
+{
+state.ptr += 1;
+{
+Token token = {};
+token.pos = (i64)(state.emit_ptr - state.base);
+token.size = (i64)(state.ptr - state.emit_ptr);
+token.flags = state.flags_ZB0;
+do{
+token.sub_kind = TokenJaiKind_MinusGrtr;
+token.kind = 7;
+}while(0);
+token_list_push(arena, list, &token);
+emit_counter += 1;
+state.emit_ptr = state.ptr;
+if (emit_counter == max){
+goto end;
+}
+}
+state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -4150,9 +4207,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Minus;
+token.sub_kind = TokenJaiKind_Eq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4160,6 +4217,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4170,9 +4228,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Minus;
+token.sub_kind = TokenJaiKind_Eq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4183,28 +4241,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
-goto state_label_1; // root
-}break;
-case 0x2d:
-{
-state.ptr += 1;
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_MinusMinus;
-token.kind = 7;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-if (emit_counter == max){
-goto end;
-}
-}
-state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x3d:
@@ -4214,9 +4251,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_MinusEq;
+token.sub_kind = TokenJaiKind_EqEq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4227,12 +4264,31 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x3e:
 {
 state.ptr += 1;
-goto state_label_56; // op stage
+{
+Token token = {};
+token.pos = (i64)(state.emit_ptr - state.base);
+token.size = (i64)(state.ptr - state.emit_ptr);
+token.flags = state.flags_ZB0;
+do{
+token.sub_kind = TokenJaiKind_EqGrtr;
+token.kind = 7;
+}while(0);
+token_list_push(arena, list, &token);
+emit_counter += 1;
+state.emit_ptr = state.ptr;
+if (emit_counter == max){
+goto end;
+}
+}
+state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
+goto state_label_1; // root
 }break;
 }
 }
@@ -4244,9 +4300,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Arrow;
+token.sub_kind = TokenJaiKind_Less;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4254,6 +4310,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4264,9 +4321,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Arrow;
+token.sub_kind = TokenJaiKind_Less;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4277,18 +4334,24 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
-case 0x2a:
+case 0x3c:
+{
+state.ptr += 1;
+goto state_label_64; // op stage
+}break;
+case 0x3d:
 {
 state.ptr += 1;
 {
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_ArrowStar;
+token.sub_kind = TokenJaiKind_LessEq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4299,6 +4362,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -4311,9 +4375,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Less;
+token.sub_kind = TokenJaiKind_Grtr;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4321,6 +4385,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4331,9 +4396,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Less;
+token.sub_kind = TokenJaiKind_Grtr;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4344,17 +4409,36 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
-}break;
-case 0x3c:
-{
-state.ptr += 1;
-goto state_label_66; // op stage
 }break;
 case 0x3d:
 {
 state.ptr += 1;
-goto state_label_59; // op stage
+{
+Token token = {};
+token.pos = (i64)(state.emit_ptr - state.base);
+token.size = (i64)(state.ptr - state.emit_ptr);
+token.flags = state.flags_ZB0;
+do{
+token.sub_kind = TokenJaiKind_GrtrEq;
+token.kind = 7;
+}while(0);
+token_list_push(arena, list, &token);
+emit_counter += 1;
+state.emit_ptr = state.ptr;
+if (emit_counter == max){
+goto end;
+}
+}
+state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
+goto state_label_1; // root
+}break;
+case 0x3e:
+{
+state.ptr += 1;
+goto state_label_65; // op stage
 }break;
 }
 }
@@ -4366,9 +4450,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Grtr;
+token.sub_kind = TokenJaiKind_Not;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4376,6 +4460,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4386,9 +4471,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Grtr;
+token.sub_kind = TokenJaiKind_Not;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4399,6 +4484,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x3d:
@@ -4408,9 +4494,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_GrtrEq;
+token.sub_kind = TokenJaiKind_NotEq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4421,12 +4507,8 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
-}break;
-case 0x3e:
-{
-state.ptr += 1;
-goto state_label_67; // op stage
 }break;
 }
 }
@@ -4438,9 +4520,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LessEq;
+token.sub_kind = TokenJaiKind_And;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4448,6 +4530,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4458,9 +4541,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LessEq;
+token.sub_kind = TokenJaiKind_And;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4471,18 +4554,19 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
-case 0x3e:
+case 0x26:
 {
 state.ptr += 1;
 {
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Compare;
+token.sub_kind = TokenJaiKind_AndAnd;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4493,6 +4577,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -4505,9 +4590,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Eq;
+token.sub_kind = TokenJaiKind_Or;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4515,6 +4600,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4525,9 +4611,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Eq;
+token.sub_kind = TokenJaiKind_Or;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4538,18 +4624,19 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
-case 0x3d:
+case 0x7c:
 {
 state.ptr += 1;
 {
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_EqEq;
+token.sub_kind = TokenJaiKind_OrOr;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4560,6 +4647,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -4572,9 +4660,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Not;
+token.sub_kind = TokenJaiKind_Plus;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4582,6 +4670,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4592,9 +4681,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Not;
+token.sub_kind = TokenJaiKind_Plus;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4605,6 +4694,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x3d:
@@ -4614,9 +4704,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_NotEq;
+token.sub_kind = TokenJaiKind_PlusEq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4627,6 +4717,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -4639,9 +4730,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_And;
+token.sub_kind = TokenJaiKind_Star;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4649,6 +4740,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4659,9 +4751,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_And;
+token.sub_kind = TokenJaiKind_Star;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4672,18 +4764,19 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
-case 0x26:
+case 0x3d:
 {
 state.ptr += 1;
 {
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_AndAnd;
+token.sub_kind = TokenJaiKind_StarEq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4694,6 +4787,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -4706,9 +4800,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Or;
+token.sub_kind = TokenJaiKind_Mod;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4716,6 +4810,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4726,9 +4821,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Or;
+token.sub_kind = TokenJaiKind_Mod;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4739,18 +4834,19 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
-case 0x7c:
+case 0x3d:
 {
 state.ptr += 1;
 {
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_OrOr;
+token.sub_kind = TokenJaiKind_ModEq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4761,6 +4857,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -4773,9 +4870,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Star;
+token.sub_kind = TokenJaiKind_LeftLeft;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4783,6 +4880,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4793,9 +4891,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Star;
+token.sub_kind = TokenJaiKind_LeftLeft;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4806,6 +4904,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x3d:
@@ -4815,9 +4914,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_StarEq;
+token.sub_kind = TokenJaiKind_LeftLeftEq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4828,6 +4927,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -4840,9 +4940,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Mod;
+token.sub_kind = TokenJaiKind_RightRight;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4850,6 +4950,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4860,9 +4961,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_Mod;
+token.sub_kind = TokenJaiKind_RightRight;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4873,6 +4974,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x3d:
@@ -4882,9 +4984,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_ModEq;
+token.sub_kind = TokenJaiKind_RightRightEq;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4895,6 +4997,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -4907,9 +5010,9 @@ if ((true)){
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LeftLeft;
+token.sub_kind = TokenJaiKind_DotDot;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4917,6 +5020,7 @@ emit_counter += 1;
 state.emit_ptr = state.ptr;
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }
 }
@@ -4927,9 +5031,9 @@ default:
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_LeftLeft;
+token.sub_kind = TokenJaiKind_DotDot;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -4940,207 +5044,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
-goto state_label_1; // root
-}break;
-case 0x3d:
-{
-state.ptr += 1;
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_LeftLeftEq;
-token.kind = 7;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-if (emit_counter == max){
-goto end;
-}
-}
-state.flags_ZF0 = 0;
-goto state_label_1; // root
-}break;
-}
-}
-{
-state_label_67: // op stage
-if (state.ptr == state.opl_ptr){
-if ((true)){
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_RightRight;
-token.kind = 7;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-}
-state.flags_ZF0 = 0;
-goto state_label_1; // root
-}
-}
-switch (*state.ptr){
-default:
-{
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_RightRight;
-token.kind = 7;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-if (emit_counter == max){
-goto end;
-}
-}
-state.flags_ZF0 = 0;
-goto state_label_1; // root
-}break;
-case 0x3d:
-{
-state.ptr += 1;
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_RightRightEq;
-token.kind = 7;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-if (emit_counter == max){
-goto end;
-}
-}
-state.flags_ZF0 = 0;
-goto state_label_1; // root
-}break;
-}
-}
-{
-state_label_68: // op stage
-if (state.ptr == state.opl_ptr){
-if ((true)){
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_PPStringify;
-token.kind = 15;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-}
-state.flags_ZF0 = 0;
-goto state_label_1; // root
-}
-}
-switch (*state.ptr){
-default:
-{
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_PPStringify;
-token.kind = 15;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-if (emit_counter == max){
-goto end;
-}
-}
-state.flags_ZF0 = 0;
-goto state_label_1; // root
-}break;
-case 0x23:
-{
-state.ptr += 1;
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_PPConcat;
-token.kind = 15;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-if (emit_counter == max){
-goto end;
-}
-}
-state.flags_ZF0 = 0;
-goto state_label_1; // root
-}break;
-}
-}
-{
-state_label_69: // op stage
-if (state.ptr == state.opl_ptr){
-if ((true)){
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_LexError;
-token.kind = 2;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-}
-state.flags_ZF0 = 0;
-goto state_label_1; // root
-}
-}
-switch (*state.ptr){
-default:
-{
-{
-Token token = {};
-token.pos = (i64)(state.emit_ptr - state.base);
-token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
-do{
-token.sub_kind = TokenCppKind_LexError;
-token.kind = 2;
-}while(0);
-token_list_push(arena, list, &token);
-emit_counter += 1;
-state.emit_ptr = state.ptr;
-if (emit_counter == max){
-goto end;
-}
-}
-state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 case 0x2e:
@@ -5150,9 +5054,9 @@ state.ptr += 1;
 Token token = {};
 token.pos = (i64)(state.emit_ptr - state.base);
 token.size = (i64)(state.ptr - state.emit_ptr);
-token.flags = state.flags_KB0;
+token.flags = state.flags_ZB0;
 do{
-token.sub_kind = TokenCppKind_DotDotDot;
+token.sub_kind = TokenJaiKind_DotDotDot;
 token.kind = 7;
 }while(0);
 token_list_push(arena, list, &token);
@@ -5163,6 +5067,7 @@ goto end;
 }
 }
 state.flags_ZF0 = 0;
+state.flags_ZB0 = 0;
 goto state_label_1; // root
 }break;
 }
@@ -5172,10 +5077,10 @@ block_copy_struct(state_ptr, &state);
 return(result);
 }
 internal Token_List
-lex_full_input_cpp(Arena *arena, String_Const_u8 input){
-Lex_State_Cpp state = {};
-lex_full_input_cpp_init(&state, input);
+lex_full_input_jai(Arena *arena, String_Const_u8 input){
+Lex_State_Jai state = {};
+lex_full_input_jai_init(&state, input);
 Token_List list = {};
-lex_full_input_cpp_breaks(arena, &list, &state, max_u64);
+lex_full_input_jai_breaks(arena, &list, &state, max_u64);
 return(list);
 }
