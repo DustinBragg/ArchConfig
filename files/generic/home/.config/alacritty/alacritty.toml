@@ -6,7 +6,7 @@ title = "Terminal (Alacritty)"
 
 [font]
 normal = { family = "TwilioSansMono", style = "Regular" }
-size = 18
+size = 14
 
 [colors]
 primary = { foreground = "#A88E70", background = "#202020", bright_foreground = "#C8AE90" }
