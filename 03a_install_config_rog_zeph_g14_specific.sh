@@ -43,6 +43,7 @@ sed -i 's/Bold 12/Bold 18/g' $HOME/.config/rofi/config.rasi
 
 #// Copy files over
 cp -r ./files/rog_zeph_g14_specific/home/.config/volumeicon $HOME/.config/
+cp -r ./files/rog_zeph_g14_specific/home/Scripts/rofi $HOME/Scripts
 cp -p ./files/rog_zeph_g14_specific/home/.config/i3/brightness_ctl.sh $HOME/.config/i3/
 cp -p ./files/rog_zeph_g14_specific/home/.config/i3/i3blocks_AsusPowerProfile.sh $HOME/.config/i3/
 cp -p ./files/rog_zeph_g14_specific/home/.config/i3/xrandr_auto.sh $HOME/.config/i3/
