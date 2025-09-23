@@ -1,5 +1,3 @@
-shell = "bash"
-
 [window]
 opacity = 0.96
 padding = { x = 10, y = 10 }
@@ -8,7 +6,7 @@ title = "Terminal (Alacritty)"
 
 [font]
 normal = { family = "TwilioSansMono", style = "Regular" }
-size = 14
+size = 18
 
 [colors]
 primary = { foreground = "#A88E70", background = "#202020", bright_foreground = "#C8AE90" }
@@ -32,3 +30,6 @@ style = { shape = "Block", blinking = "On" }
 blink_interval = 500
 blink_timeout = 0
 thickness = 0.15
+
+[terminal]
+shell = "bash"
