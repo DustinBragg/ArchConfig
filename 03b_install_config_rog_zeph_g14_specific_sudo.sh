@@ -49,7 +49,7 @@ systemctl enable --now power-profiles-daemon.service
 systemctl enable --now supergfxd
 systemctl enable --now switcheroo-control
 
-pacman -S --noconfirm --needed rog-control-center
+#//pacman -S --noconfirm --needed rog-control-center
 
 #// Fix dGPU waking on resume-from-sleep
 sed -i 's/\"vfio_enable\": false/\"vfio_enable\": true/g' /etc/supergfxd.conf

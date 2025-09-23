@@ -1,0 +1,11 @@
+
+
+# Perf info
+[perf-mode]
+command=~/.config/i3/i3blocks_AsusPowerProfile.sh
+interval=1
+
+[separator]
+full_text=-
+color=#996633
+

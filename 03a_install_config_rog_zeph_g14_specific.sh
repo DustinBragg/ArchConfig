@@ -29,6 +29,7 @@ rm $HOME/.config/i3/config
 cp -p $HOME/ArchConfig/files/x_specific/home/.config/i3/config $HOME/.config/i3/config
 
 cat ./files/rog_zeph_g14_specific/home/.config/i3/config_append >> $HOME/.config/i3/config
+sed -i -e '17r ./files/rog_zeph_g14_specific/home/.config/i3/i3blocks.conf_append' $HOME/.config/i3/i3blocks.conf
 
 #// Append new .Xresources stuff
 sed -i 's/Xcursor.size: 16/Xcursor.size: 48/g' $HOME/.Xresources
