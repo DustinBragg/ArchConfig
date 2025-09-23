@@ -16,6 +16,7 @@ gimp
 gtk
 gvfs
 htop
+iwd
 libnotify
 libqalculate
 lightdm-mini-greeter
@@ -44,6 +45,8 @@ tmux
 tokei
 ttf-dejavu
 ttf-font-awesome
+ttf-font-awesome-4
+ttf-font-awesome-5
 ttf-liberation
 ueberzug
 unrar
