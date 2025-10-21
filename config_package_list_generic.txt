@@ -10,6 +10,7 @@ bc
 brave-bin
 cifs-utils
 emacs
+ethtool
 flac
 git
 gimp
